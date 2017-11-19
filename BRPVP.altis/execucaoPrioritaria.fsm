@@ -1,0 +1,64 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Bohemia Interactive\Tools\FSM Editor Personal Edition\scriptedFSM.cfg, Execucao Prioritaria">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"INICIO",0,4346,-543.633301,-187.217117,-453.633301,-137.217117,0.000000,"INICIO"};
+item1[] = {"VERDADEIRO",8,218,-411.545166,-197.916824,-298.716339,-128.892929,0.000000,"VERDADEIRO"};
+item2[] = {"FIM",1,250,-256.229126,-188.946075,-166.229263,-138.946106,0.000000,"FIM"};
+link0[] = {0,1};
+link1[] = {1,2};
+globals[] = {0.000000,0,0,0,0,640,480,1,4,6316128,1,-738.538818,-38.459362,26.391092,-369.306000,610,740,1};
+window[] = {2,-1,-1,-1,-1,432,52,820,52,3,628};
+*//*%FSM</HEAD>*/
+class FSM
+{
+  fsmName = "Execucao Prioritaria";
+  class States
+  {
+    /*%FSM<STATE "INICIO">*/
+    class INICIO
+    {
+      name = "INICIO";
+      init = /*%FSM<STATEINIT""">*/"_nome = _this select 0;" \n
+       "_script = _this select 1;" \n
+       "if (typeName _script == ""STRING"") then {_script = compile preprocessFileLineNumbers _script;};" \n
+       "_inicio = diag_tickTime;" \n
+       "call _script;" \n
+       "_tempo = diag_tickTime - _inicio;" \n
+       "diag_log (""[BRPVP EXECUCAO PRIORITARIA FSM] SCRIPT: "" + _nome + "". TEMPO: "" + str _tempo);" \n
+       "BRPVP_fsmTerminou = true;" \n
+       ""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+        /*%FSM<LINK "VERDADEIRO">*/
+        class VERDADEIRO
+        {
+          priority = 0.000000;
+          to="FIM";
+          precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+          condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+          action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+        };
+        /*%FSM</LINK>*/
+      };
+    };
+    /*%FSM</STATE>*/
+    /*%FSM<STATE "FIM">*/
+    class FIM
+    {
+      name = "FIM";
+      init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+      precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+      class Links
+      {
+      };
+    };
+    /*%FSM</STATE>*/
+  };
+  initState="INICIO";
+  finalStates[] =
+  {
+    "FIM",
+  };
+};
+/*%FSM</COMPILE>*/

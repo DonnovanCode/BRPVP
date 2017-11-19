@@ -1,0 +1,10 @@
+BRPVP_actionRunning pushBack 12;
+_msg = ["<img size='6' image='BRP_imagens\interface\drop_items.paa'/>",0,0,3,0,0,7757];
+BRPVP_serverGraphHintPlayer = [BRPVP_surrended,_msg];
+if (isServer) then {["",BRPVP_serverGraphHintPlayer] call BRPVP_serverGraphHintPlayerFnc;} else {publicVariableServer "BRPVP_serverGraphHintPlayer";};
+sleep 0.5;
+playSound3D [BRPVP_missionRoot + "BRP_sons\time_is_up.ogg",player,false,getPosASL player,1,1,200];
+sleep 2.5;
+player removeAction BRPVP_actionSurrenderItems;
+BRPVP_actionSurrenderItems = -1;
+BRPVP_actionRunning = BRPVP_actionRunning - [12];

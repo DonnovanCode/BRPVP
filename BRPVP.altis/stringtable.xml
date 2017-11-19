@@ -1,0 +1,2927 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="World BRPVP">
+	<Package name="World BRPVP Main Mission">
+		<Container name="All Text">
+			<Key ID="str_populating">
+				<Original>POPULATING</Original>
+				<English>POPULATING</English>
+				<Portuguese>POPULANDO</Portuguese>
+			</Key>
+			<Key ID="str_server">
+				<Original>SERVER</Original>
+				<English>SERVER</English>
+				<Portuguese>SERVIDOR</Portuguese>
+			</Key>
+			<Key ID="str_deploying">
+				<Original>DEPLOYING</Original>
+				<English>DEPLOYING</English>
+				<Portuguese>ENTREGANDO</Portuguese>
+			</Key>
+			<Key ID="str_land_civil">
+				<Original>Land Civil</Original>
+				<English>Land Civil</English>
+				<Portuguese>Civil Terra</Portuguese>
+			</Key>
+			<Key ID="str_city_cars">
+				<Original>City Cars</Original>
+				<English>City Cars</English>
+				<Portuguese>Carros de Cidade</Portuguese>
+			</Key>
+			<Key ID="str_offroad">
+				<Original>Offroad</Original>
+				<English>Offroad</English>
+				<Portuguese>Caminhonete</Portuguese>
+			</Key>
+			<Key ID="str_land_apex">
+				<Original>Land Apex</Original>
+				<English>Land Apex</English>
+				<Portuguese>Apex Terra</Portuguese>
+			</Key>
+			<Key ID="str_land_militar">
+				<Original>Land Militar</Original>
+				<English>Land Militar</English>
+				<Portuguese>Militar Terra</Portuguese>
+			</Key>
+			<Key ID="str_civil">
+				<Original>Civil</Original>
+				<English>Civil</English>
+				<Portuguese>Civil</Portuguese>
+			</Key>
+			<Key ID="str_helicopters">
+				<Original>Helicopters</Original>
+				<English>Helicopters</English>
+				<Portuguese>Helicopteros</Portuguese>
+			</Key>
+			<Key ID="str_transport_helicopters">
+				<Original>Transport Helis</Original>
+				<English>Transport Helis</English>
+				<Portuguese>Helis de Transporte</Portuguese>
+			</Key>
+			<Key ID="str_fuel_truck">
+				<Original>Fuel Truck</Original>
+				<English>Fuel Truck</English>
+				<Portuguese>Caminhões Gasosa</Portuguese>
+			</Key>
+			<Key ID="str_ammo_truck">
+				<Original>Ammo Truck</Original>
+				<English>Ammo Truck</English>
+				<Portuguese>Caminhões Munição</Portuguese>
+			</Key>
+			<Key ID="str_repair_truck">
+				<Original>Repair Truck</Original>
+				<English>Repair Truck</English>
+				<Portuguese>Caminhões de Reparo</Portuguese>
+			</Key>
+			<Key ID="str_militar">
+				<Original>Militar</Original>
+				<English>Militar</English>
+				<Portuguese>Militar</Portuguese>
+			</Key>
+			<Key ID="str_light_helicopters">
+				<Original>Light Helis</Original>
+				<English>Light Helis</English>
+				<Portuguese>Light Helis</Portuguese>
+			</Key>
+			<Key ID="str_mrap">
+				<Original>MRAP</Original>
+				<English>MRAP</English>
+				<Portuguese>MRAP</Portuguese>
+			</Key>
+			<Key ID="str_mrap_hmg">
+				<Original>MRAP HMG</Original>
+				<English>MRAP HMG</English>
+				<Portuguese>MRAP HMG</Portuguese>
+			</Key>
+			<Key ID="str_mrap_gmg">
+				<Original>MRAP GMG</Original>
+				<English>MRAP GMG</English>
+				<Portuguese>MRAP GMG</Portuguese>
+			</Key>
+			<Key ID="str_wheeled_apc">
+				<Original>Wheeled APC (no Turret)</Original>
+				<English>Wheeled APC (no Turret)</English>
+				<Portuguese>APC Rodado (sem Turret)</Portuguese>
+			</Key>
+			<Key ID="str_default_truck">
+				<Original>Default Truck</Original>
+				<English>Default Truck</English>
+				<Portuguese>Caminhões Padrão</Portuguese>
+			</Key>
+			<Key ID="str_covered_truck">
+				<Original>Covered Truck</Original>
+				<English>Covered Truck</English>
+				<Portuguese>Caminhões Cobertos</Portuguese>
+			</Key>
+			<Key ID="str_admin_heli">
+				<Original>Admin Helis</Original>
+				<English>Admin Helis</English>
+				<Portuguese>Admin Helis</Portuguese>
+			</Key>
+			<Key ID="str_admin_plane">
+				<Original>Admin Planes</Original>
+				<English>Admin Planes</English>
+				<Portuguese>Admin Aviões</Portuguese>
+			</Key>
+			<Key ID="str_admin_land">
+				<Original>Admin Land</Original>
+				<English>Admin Land</English>
+				<Portuguese>Admin Terra</Portuguese>
+			</Key>
+			<Key ID="str_apc">
+				<Original>APC</Original>
+				<English>APC</English>
+				<Portuguese>APC</Portuguese>
+			</Key>
+			<Key ID="str_attack_helis">
+				<Original>Attack Helis</Original>
+				<English>Attack Helis</English>
+				<Portuguese>Helis de Ataque</Portuguese>
+			</Key>
+			<Key ID="str_anti_air">
+				<Original>Anti-Air</Original>
+				<English>Anti-Air</English>
+				<Portuguese>Anti-Aéreo</Portuguese>
+			</Key>
+			<Key ID="str_arty">
+				<Original>Arty</Original>
+				<English>Arty</English>
+				<Portuguese>Artilharia</Portuguese>
+			</Key>
+			<Key ID="str_tanks">
+				<Original>Tanks</Original>
+				<English>Tanks</English>
+				<Portuguese>Tanks</Portuguese>
+			</Key>
+			<Key ID="str_planes">
+				<Original>Planes</Original>
+				<English>Planes</English>
+				<Portuguese>Aviões</Portuguese>
+			</Key>
+			<Key ID="str_brpvp_team">
+				<Original>BRPVP Team</Original>
+				<English>BRPVP Team</English>
+				<Portuguese>Time BRPVP</Portuguese>
+			</Key>
+			<Key ID="str_brpvp">
+				<Original>BRPVP</Original>
+				<English>BRPVP</English>
+				<Portuguese>BRPVP</Portuguese>
+			</Key>
+			<Key ID="str_turret_brain_damage">
+				<Original>Turret Brain Damage: %1/100</Original>
+				<English>Turret Brain Damage: %1/100</English>
+				<Portuguese>Dano Cerebral na Turreta: %1/100</Portuguese>
+			</Key>
+			<Key ID="str_temporary_vehicle">
+				<Original>TEMPORARY VEHICLE!\nDisappears on restart!</Original>
+				<English>TEMPORARY VEHICLE!\nDisappears on restart!</English>
+				<Portuguese>VEICULO TEMPORARIO!\nSome no restart!</Portuguese>
+			</Key>
+			<Key ID="str_is_on_siege">
+				<Original>%1 is on siege!</Original>
+				<English>%1 is on siege!</English>
+				<Portuguese>%1 esta sitiada!</Portuguese>
+			</Key>
+			<Key ID="str_plane_fall">
+				<Original>A civil plane crashed. Check the map!\nSomeone jumped from the plane!</Original>
+				<English>A civil plane crashed. Check the map!\nSomeone jumped from the plane!</English>
+				<Portuguese>Um avião civil caiu. Cheque o mapa!\nO piloto foi visto saltando!</Portuguese>
+			</Key>
+			<Key ID="str_change_weather">
+				<Original>Weather changed by the admin.\nSyncing...</Original>
+				<English>Weather changed by the admin.\nSyncing...</English>
+				<Portuguese>Clima mudado pelo admin.\nSincronizando...</Portuguese>
+			</Key>
+			<Key ID="str_time_mult_changed">
+				<Original>Time multiplier changed to %1.</Original>
+				<English>Time multiplier changed to %1.</English>
+				<Portuguese>Multiplicador de tempo mudado para %1.</Portuguese>
+			</Key>
+			<Key ID="str_day_time_changed">
+				<Original>Day time changed to %1 hour and %2 minutes.</Original>
+				<English>Day time changed to %1 hour and %2 minutes.</English>
+				<Portuguese>Hora do dia mudado para %1 hora e %2 minutos.</Portuguese>
+			</Key>
+			<Key ID="str_plane_fall_started">
+				<Original>Plane crash started.\nCan take some time before the plane appears on the map.</Original>
+				<English>Plane crash started.\nCan take some time before the plane appears on the map.</English>
+				<Portuguese>Missão de queda de avião começou.\nPode levar algum tempo para o avião aparecer no mapa.</Portuguese>
+			</Key>
+			<Key ID="str_convoy_started">
+				<Original>Convoy mission started!</Original>
+				<English>Convoy mission started!</English>
+				<Portuguese>Missão de comboio começou!</Portuguese>
+			</Key>
+			<Key ID="str_bravo_started">
+				<Original>If there is a free Bravo construction\na Bravo mission will start in 30 seconds.</Original>
+				<English>If there is a free Bravo construction\na Bravo mission will start in 30 seconds.</English>
+				<Portuguese>Se existe uma construcão Bravo livre\numa missão Bravo vai começar em 30 segundos.</Portuguese>
+			</Key>
+			<Key ID="str_bravo_cant_start">
+				<Original>A Bravo mission is already starting. Please wait.</Original>
+				<English>A Bravo mission is already starting. Please wait.</English>
+				<Portuguese>Uma missão Bravo ja esta começando. Por favor espere.</Portuguese>
+			</Key>
+			<Key ID="str_siege_start">
+				<Original>If there is an elegible city to be sieged\na siege mission will start in some seconds.</Original>
+				<English>If there is an elegible city to be sieged\na siege mission will start in some seconds.</English>
+				<Portuguese>Se existe uma cidade elegivel a ser sitiada\numa missão sitiada vai começar em alguns instantes.</Portuguese>
+			</Key>
+			<Key ID="str_siege_cant_start">
+				<Original>A siege mission is already starting.\nPlease wait.</Original>
+				<English>A siege mission is already starting.\nPlease wait.</English>
+				<Portuguese>Uma missão sitiada ja esta começando.\nPor favor espere.</Portuguese>
+			</Key>
+			<Key ID="str_run">
+				<Original>Run!</Original>
+				<English>Run!</English>
+				<Portuguese>Corra!</Portuguese>
+			</Key>
+			<Key ID="str_server_restart_in">
+				<Original>The server will restart in %1 minutes!</Original>
+				<English>The server will restart in %1 minutes!</English>
+				<Portuguese>O servidor vai reiniciar em %1 minutos!</Portuguese>
+			</Key>
+			<Key ID="str_siege_end">
+				<Original>The siege on %1 finished!</Original>
+				<English>The siege on %1 finished!</English>
+				<Portuguese>O sitiamento de %1 terminou!</Portuguese>
+			</Key>
+			<Key ID="str_full_moon_set">
+				<Original>Planetary system configured.\nDay set to full moon.</Original>
+				<English>Planetary system configured.\nDay set to full moon.</English>
+				<Portuguese>Sistema planetario configurado.\nDia setado para lua cheia!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_need_revoke">
+				<Original>You first need to revoke your actual map house.</Original>
+				<English>You first need to revoke your actual map house.</English>
+				<Portuguese>Voce precisa primeiro liberar sua atual casa do mapa.</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_set">
+				<Original>This is now your map house!</Original>
+				<English>This is now your map house!</English>
+				<Portuguese>Esta agora é sua casa do mapa!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_already_is">
+				<Original>This house is already your map house!</Original>
+				<English>This house is already your map house!</English>
+				<Portuguese>Esta ja e sua casa do mapa!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_cant_set">
+				<Original>You cant... this house already have a owner.</Original>
+				<English>You cant... this house already have a owner.</English>
+				<Portuguese>Voce não pode... Esta casa ja foi pega por alguem.</Portuguese>
+			</Key>
+			<Key ID="str_radar_info">
+				<Original>Radar Actived!\nDistance: %1\nError: %2\nCycle: %3</Original>
+				<English>Radar Actived!\nDistance: %1\nError: %2\nCycle: %3</English>
+				<Portuguese>Radar Ativado!\nDistancia: %1\nErro: %2\nCiclo: %3</Portuguese>
+			</Key>
+			<Key ID="str_radar_deactived">
+				<Original>Radar deactived...</Original>
+				<English>Radar deactived...</English>
+				<Portuguese>Radar desativado...</Portuguese>
+			</Key>
+			<Key ID="str_revive_in">
+				<Original>REVIVING IN %1 SECONDS!</Original>
+				<English>REVIVING IN %1 SECONDS!</English>
+				<Portuguese>REVIVENDO EM %1 SEGUNDOS!</Portuguese>
+			</Key>
+			<Key ID="str_revive_canceled">
+				<Original>RESURRECTION CANCELED...</Original>
+				<English>RESURRECTION CANCELED...</English>
+				<Portuguese>RESSURREICAO CANCELADA...</Portuguese>
+			</Key>
+			<Key ID="str_revive_died">
+				<Original>He died...</Original>
+				<English>He died...</English>
+				<Portuguese>Ele morreu...</Portuguese>
+			</Key>
+			<Key ID="str_revive_ok">
+				<Original>REVIVING!</Original>
+				<English>REVIVING!</English>
+				<Portuguese>REVIVENDO!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_unset_wait">
+				<Original>Dont move for %1 seconds to liberate the house.</Original>
+				<English>Dont move for %1 seconds to liberate the house.</English>
+				<Portuguese>Não se mova por %1 segundos para liberar a casa!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_unset_ok">
+				<Original>You liberated the map house, now it is public!</Original>
+				<English>You liberated the map house, now it is public!</English>
+				<Portuguese>Voce liberou a casa, agora ela é publica!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_moved">
+				<Original>You moved... process canceled.</Original>
+				<English>You moved... process canceled.</English>
+				<Portuguese>Voce se moveu... processo cancelado!</Portuguese>
+			</Key>
+			<Key ID="str_coll_collectors">
+				<Original>Collectors %1</Original>
+				<English>Collectors %1</English>
+				<Portuguese>Coletores %1</Portuguese>
+			</Key>
+			<Key ID="str_coll_in_veh">
+				<Original>You must leave the vehicle\nto access the receptacle.</Original>
+				<English>You must leave the vehicle\nto access the receptacle.</English>
+				<Portuguese>Voce precisa sair do veiculo para\nacessar o receptaculo.</Portuguese>
+			</Key>
+			<Key ID="str_coll_remain">
+				<Original>%1 items remains in the receptacle.\nYou can access then any time.</Original>
+				<English>%1 items remains in the receptacle.\nYou can access then any time.</English>
+				<Portuguese>%1 itens ainda estao no seu receptaculo.\nVoce pode acessa-los a qualquer momento.</Portuguese>
+			</Key>
+			<Key ID="str_coll_sell_ok">
+				<Original>You received $ %1.\n%2</Original>
+				<English>You received $ %1.\n%2</English>
+				<Portuguese>Voce recebeu $ %1.\n%2</Portuguese>
+			</Key>
+			<Key ID="str_coll_open_receptacle">
+				<Original>Open Sell Receptacle</Original>
+				<English>Open Sell Receptacle</English>
+				<Portuguese>Abrir Receptaculo de Venda</Portuguese>
+			</Key>
+			<Key ID="str_coll_apply_sell">
+				<Original>Apply Sell</Original>
+				<English>Apply Sell</English>
+				<Portuguese>Aplicar Venda</Portuguese>
+			</Key>
+			<Key ID="str_no_money">
+				<Original>You dont have enough money!</Original>
+				<English>You dont have enough money!</English>
+				<Portuguese>Voce não tem dinheiro suficiente!</Portuguese>
+			</Key>
+			<Key ID="str_trader_on_ground">
+				<Original>You need to be on the ground to access the Market.</Original>
+				<English>You need to be on the ground to access the Market.</English>
+				<Portuguese>Voce precisa estar no chão para acessar o Mercado.</Portuguese>
+			</Key>
+			<Key ID="str_trader_on_foot">
+				<Original>You need to be on foot to access the Market.</Original>
+				<English>You need to be on foot to access the Market.</English>
+				<Portuguese>Voce precisa estar a pe para acessar o mercado.</Portuguese>
+			</Key>
+			<Key ID="str_finalize_count">
+				<Original>WILL DIE IN %1 SECONDS!</Original>
+				<English>WILL DIE IN %1 SECONDS!</English>
+				<Portuguese>MORTE EM %1 SEGUNDOS!</Portuguese>
+			</Key>
+			<Key ID="str_finalize_fail">
+				<Original>KILL CANCELED...</Original>
+				<English>KILL CANCELED...</English>
+				<Portuguese>MORTE CANCELADA...</Portuguese>
+			</Key>
+			<Key ID="str_tow_fail">
+				<Original>The tow process was canceled!</Original>
+				<English>The tow process was canceled!</English>
+				<Portuguese>O processo de rebocagem foi cancelado!</Portuguese>
+			</Key>
+			<Key ID="str_tow_ok">
+				<Original>Tow process concluded!</Original>
+				<English>Tow process concluded!</English>
+				<Portuguese>O processo de rebocagem foi concluido!</Portuguese>
+			</Key>
+			<Key ID="str_tow_cant">
+				<Original>You cant. This vehicle is not in good condition.</Original>
+				<English>You cant. This vehicle is not in good condition.</English>
+				<Portuguese>Este veiculo não esta em condições de ser rebocado.</Portuguese>
+			</Key>
+			<Key ID="str_tow_driver_pos">
+				<Original>The driver position must be free!</Original>
+				<English>The driver position must be free!</English>
+				<Portuguese>A posição do motorista precisa estar vazia!</Portuguese>
+			</Key>
+			<Key ID="str_trans_side_null">
+				<Original>Origin or destination dont exist anymore.</Original>
+				<English>Origin or destination dont exist anymore.</English>
+				<Portuguese>Um dos lados\nnão existe mais.</Portuguese>
+			</Key>
+			<Key ID="str_trans_far_destination">
+				<Original>Destination is too far away.</Original>
+				<English>Destination is too far away.</English>
+				<Portuguese>Voce esta muito longe do destino.</Portuguese>
+			</Key>
+			<Key ID="str_trans_ok">
+				<Original>Items transfered from %1\nto %2.</Original>
+				<English>Items transfered from %1\nto %2.</English>
+				<Portuguese>Itens transferidos de %1\npara %2.</Portuguese>
+			</Key>
+			<Key ID="str_trans_ok2">
+				<Original>Items transfered to: %1.</Original>
+				<English>Items transfered to: %1.</English>
+				<Portuguese>Itens transferidos para: %1.</Portuguese>
+			</Key>
+			<Key ID="str_trans_cant">
+				<Original>Cant... no access to origin or destination.</Original>
+				<English>Cant... no access to origin or destination.</English>
+				<Portuguese>Voce não pode transferir.\nSem acesso para um dos lados.</Portuguese>
+			</Key>
+			<Key ID="str_resp_cant_set">
+				<Original>You already have the maximum number of respawn points!\nRemove one first!</Original>
+				<English>You already have the maximum number of respawn points!\nRemove one first!</English>
+				<Portuguese>Voce ja tem o número máximo de respawns pessoais!\nRemova um primeiro!</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_unfriend">
+				<Original>You cant put the object here!\nToo many not-friendly objects near!</Original>
+				<English>You cant put the object here!\nToo many not-friendly objects near!</English>
+				<Portuguese>Voce não pode colocar o objeto!\nExistem muitas construções não-amigas por perto!</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_safez">
+				<Original>You cant construct in a safezone!</Original>
+				<English>You cant construct in a safezone!</English>
+				<Portuguese>Voce não pode construir na safezone!</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_safez_arround">
+				<Original>You cant construct %1 m from the safezones!</Original>
+				<English>You cant construct %1 m from the safezones!</English>
+				<Portuguese>Voce não pode construir a %1 m das safezones!</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_inside">
+				<Original>Whooops!\nThe object is too much inside the terrain...</Original>
+				<English>Whooops!\nThe object is too much inside the terrain...</English>
+				<Portuguese>Ooops!\nO objeto esta muito dentro do terreno...</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_city">
+				<Original>You can't construct in this area.</Original>
+				<English>You can't construct in this area.</English>
+				<Portuguese>Você não pode construir nesta área.</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_flag">
+				<Original>There is no friendly flag near.</Original>
+				<English>There is no friendly flag near.</English>
+				<Portuguese>Não existe bandeira amiga por perto.</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_flag_2x">
+				<Original>Flag areas can't intersect more than permitted.</Original>
+				<English>Flag areas can't intersect more than permitted.</English>
+				<Portuguese>As areas das bandeiras não podem sobrepor mais que o permitido.</Portuguese>
+			</Key>
+			<Key ID="str_vault_cant">
+				<Original>Wait %1 seconds before open/close the vault again!</Original>
+				<English>Wait %1 seconds before open/close the vault again!</English>
+				<Portuguese>Espere %1 segundos para abrir/fechar o cofre de novo!</Portuguese>
+			</Key>
+			<Key ID="str_ear_on">
+				<Original>Ear plugs on!</Original>
+				<English>Ear plugs on!</English>
+				<Portuguese>Tampões de ouvido ligados!</Portuguese>
+			</Key>
+			<Key ID="str_ear_off">
+				<Original>Ear Plugs off!</Original>
+				<English>Ear Plugs off!</English>
+				<Portuguese>Tampões de ouvido desligados!</Portuguese>
+			</Key>
+			<Key ID="str_side_dont_talk">
+				<Original>Dont talk on side channel!</Original>
+				<English>Dont talk on side channel!</English>
+				<Portuguese>Não fale no side!</Portuguese>
+			</Key>
+			<Key ID="str_player_menu">
+				<Original>PRESS F2 TO OPEN THE PLAYER MENU.</Original>
+				<English>PRESS F2 TO OPEN THE PLAYER MENU.</English>
+				<Portuguese>PRESSIONE F2 PARA ABRIR O MENU.</Portuguese>
+			</Key>
+			<Key ID="str_select_spawn">
+				<Original>SELECT YOUR RESPAWN PLACE!\n(ORANGE CIRCLES ON THE MAP)\nSHIFT + CLICK ON THE MAP TO SET YOUR VIEW DIRECTION!</Original>
+				<English>SELECT YOUR RESPAWN PLACE!\n(ORANGE CIRCLES ON THE MAP)\nSHIFT + CLICK ON THE MAP TO SET YOUR VIEW DIRECTION!</English>
+				<Portuguese>SELECIONE SEU LOCAL DE NASCIMENTO!\n(CIRCULOS ALARANJADOS NO MAPA)\nSHIFT + CLICK NO MAPA PARA DEFINIR A DIRECAO!</Portuguese>
+			</Key>
+			<Key ID="str_spawn_tips">
+				<Original>Press [SPACE] to open the parachute.\n[SHIFT + W] or [SHIFT + S] to perform wing-suit fly!</Original>
+				<English>Press [SPACE] to open the parachute.\n[SHIFT + W] or [SHIFT + S] to perform wing-suit fly!</English>
+				<Portuguese>Pressione [SPACO] para abrir o paraquedas.\n[SHIFT + W] ou [SHIFT + S] para voar enquanto cai\n sem paraquedas.</Portuguese>
+			</Key>
+			<Key ID="str_quad_time">
+				<Original>This quadricycle will remains for %1 seconds!</Original>
+				<English>This quadricycle will remains for %1 seconds!</English>
+				<Portuguese>Este quadriciclo dura %1 segundos!</Portuguese>
+			</Key>
+			<Key ID="str_apc_turret_off">
+				<Original>Turret and commander position\ndisabled on this APC...</Original>
+				<English>Turret and commander position\ndisabled on this APC...</English>
+				<Portuguese>Turretas de gunner e comandante\nestão desabilitadas neste APC...</Portuguese>
+			</Key>
+			<Key ID="str_no_access">
+				<Original>You dont have access...</Original>
+				<English>You dont have access...</English>
+				<Portuguese>Voce não tem acesso...</Portuguese>
+			</Key>
+			<Key ID="str_no_access_locked">
+				<Original>It's locked...</Original>
+				<English>It's locked...</English>
+				<Portuguese>Esta trancado...</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_combat">
+				<Original>You cant construct while in combat!</Original>
+				<English>You cant construct while in combat!</English>
+				<Portuguese>Voce não pode construir em combate!</Portuguese>
+			</Key>
+			<Key ID="str_cons_cant_safez">
+				<Original>You cant construct inside a safezone!</Original>
+				<English>You cant construct inside a safezone!</English>
+				<Portuguese>Voce não pode construir na Safe Zone!</Portuguese>
+			</Key>
+			<Key ID="str_revive_count">
+				<Original>DYING: %1 %2\nPress SPACE to die.</Original>
+				<English>DYING: %1 %2\nPress SPACE to die.</English>
+				<Portuguese>MORRENDO: %1 %2\nPressione espaco para morrer.</Portuguese>
+			</Key>
+			<Key ID="str_fedidex_del_alert">
+				<Original>EXPRESS VEHICLE FEDIDEX!\nRemains for only one restart.</Original>
+				<English>EXPRESS VEHICLE FEDIDEX!\nRemains for only one restart.</English>
+				<Portuguese>VEICULO EXPRESSO FEDIDEX!\nDura por um restart apenas.</Portuguese>
+			</Key>
+			<Key ID="str_vehicle_radar">
+				<Original>This vehicle have radar signal!\n(open your map)</Original>
+				<English>This vehicle have radar signal!\n(open your map)</English>
+				<Portuguese>Este veiculo tem sinal de radar!\n(abra seu mapa).</Portuguese>
+			</Key>
+			<Key ID="str_flares_tip">
+				<Original>Get the flares for instant money or\ntransfer then to sell on the collectors!</Original>
+				<English>Get the flares for instant money or\ntransfer then to sell on the collectors!</English>
+				<Portuguese>Pegue os flares para *dinheiro instantaneo* ou\ntransfira-os para vender nos Coletores!</Portuguese>
+			</Key>
+			<Key ID="str_props_received">
+				<Original>You received one or more properties!</Original>
+				<English>You received one or more properties!</English>
+				<Portuguese>Voce recebeu uma ou mais propriedades!</Portuguese>
+			</Key>
+			<Key ID="str_mhouse_public">
+				<Original>Some near map house became public!\nCatch it if you want!</Original>
+				<English>Some near map house became public!\nCatch it if you want!</English>
+				<Portuguese>Uma casa de mapa próxima se tornou publica!\nPegue-a para voce se quiser!</Portuguese>
+			</Key>
+			<Key ID="str_trust_new">
+				<Original>TRUST: %1 now trust in you!</Original>
+				<English>TRUST: %1 now trust in you!</English>
+				<Portuguese>CONFIANCA: %1 agora confia em voce!</Portuguese>
+			</Key>
+			<Key ID="str_trust_revoked">
+				<Original>TRUST REVOKED: %1 dont trust you anymore!</Original>
+				<English>TRUST REVOKED: %1 dont trust you anymore!</English>
+				<Portuguese>QUEBRA DE CONFIANCA: %1 nao confia mais em voce.</Portuguese>
+			</Key>
+			<Key ID="str_radar_local">
+				<Original>This place have radar signal!\n(open your map)</Original>
+				<English>This place have radar signal!\n(open your map)</English>
+				<Portuguese>Este local tem sinal de radar!\n(abra seu mapa).</Portuguese>
+			</Key>
+			<Key ID="str_fidelity_prize1">
+				<Original>You received an fidelity prize of %1$!</Original>
+				<English>You received an fidelity prize of %1$!</English>
+				<Portuguese>Voce recebeu um premio de fidelidade de %1$!</Portuguese>
+			</Key>
+			<Key ID="str_fidelity_prize2">
+				<Original>You received an *Extra* fidelity prize of %1$!</Original>
+				<English>You received an *Extra* fidelity prize of %1$!</English>
+				<Portuguese>Voce recebeu um premio *Extra* de fidelidade de %1$!</Portuguese>
+			</Key>
+			<Key ID="str_terr_draw">
+				<Original>Terrains draw on map!</Original>
+				<English>Terrains draw on map!</English>
+				<Portuguese>Terrenos desenhados no mapa!</Portuguese>
+			</Key>
+			<Key ID="str_terr_removed">
+				<Original>Terrains removed from the map...</Original>
+				<English>Terrains removed from the map...</English>
+				<Portuguese>Terrenos removidos do mapa...</Portuguese>
+			</Key>
+			<Key ID="str_terr_must_off_admin">
+				<Original>Disable admin terrain view first!</Original>
+				<English>Disable admin terrain view first!</English>
+				<Portuguese>Desligue os terrenos de admin primeiro!</Portuguese>
+			</Key>
+			<Key ID="str_killmsg_main">
+				<Original>%1 was killed by %2 with %3 from %4 m.\nMost agressor: %5 with %6.</Original>
+				<English>%1 was killed by %2 with %3 from %4 m.\nMost agressor: %5 with %6.</English>
+				<Portuguese>%1 foi morto por %2 com %3 de %4 m.\nMaior agressor: %5 com %6.</Portuguese>
+			</Key>
+			<Key ID="str_killmsg_hurt">
+				<Original>%1 died!\nLast attack by %2, %3 seconds ago!</Original>
+				<English>%1 died!\nLast attack by %2, %3 seconds ago!</English>
+				<Portuguese>%1 morreu!\nUltimo ataque por %2, %3 segundos atras!</Portuguese>
+			</Key>
+			<Key ID="str_killmsg_puf">
+				<Original>%1 died!</Original>
+				<English>%1 died!</English>
+				<Portuguese>%1 morreu!</Portuguese>
+			</Key>
+			<Key ID="str_fuel_100">
+				<Original>The vehicle was refueled!</Original>
+				<English>The vehicle was refueled!</English>
+				<Portuguese>O combustivel foi a 100%</Portuguese>
+			</Key>
+			<Key ID="str_there_was_more">
+				<Original>There was more messages...</Original>
+				<English>There was more messages...</English>
+				<Portuguese>Houve mais mensagens...</Portuguese>
+			</Key>
+			<Key ID="str_safezone_in">
+				<Original>You are in a safe zone.</Original>
+				<English>You are in a safe zone.</English>
+				<Portuguese>Voce esta em uma Safe Zone.</Portuguese>
+			</Key>
+			<Key ID="str_safezone_out">
+				<Original>You left the safe zone.</Original>
+				<English>You left the safe zone.</English>
+				<Portuguese>Voce saiu da Safe Zone.</Portuguese>
+			</Key>
+			<Key ID="str_healed">
+				<Original>You was healed!</Original>
+				<English>You was healed!</English>
+				<Portuguese>Voce foi curado!</Portuguese>
+			</Key>
+			<Key ID="str_cant_buy_try_remove">
+				<Original>You dont have enough money.\nTry to remove one or more items.</Original>
+				<English>You dont have enough money.\nTry to remove one or more items.</English>
+				<Portuguese>Voce não tem dinheiro suficiente.\nRemova um ou mais itens.</Portuguese>
+			</Key>
+			<Key ID="str_need_more">
+				<Original>You need more $ %1.</Original>
+				<English>You need more $ %1.</English>
+				<Portuguese>Voce precisa de mais $ %1.</Portuguese>
+			</Key>
+			<Key ID="str_items_ground">
+				<Original>Some items are on the ground!</Original>
+				<English>Some items are on the ground!</English>
+				<Portuguese>Alguns itens estao no chão!</Portuguese>
+			</Key>
+			<Key ID="str_items_have_all">
+				<Original>You have all the items!</Original>
+				<English>You have all the items!</English>
+				<Portuguese>Voce tem todos os itens!</Portuguese>
+			</Key>
+			<Key ID="str_fedidex_time">
+				<Original>Delivery in %1 seconds!</Original>
+				<English>Delivery in %1 seconds!</English>
+				<Portuguese>Entrega expressa em %1 segundos!</Portuguese>
+			</Key>
+			<Key ID="str_bots">
+				<Original>AI Unit</Original>
+				<English>AI Unit</English>
+				<Portuguese>Bots</Portuguese>
+			</Key>
+			<Key ID="str_spec_to_leave">
+				<Original>Press space bar to leave spectator mode.</Original>
+				<English>Press space bar to leave spectator mode.</English>
+				<Portuguese>Pressione a Barra de Espaco para sair do mode Spectador.</Portuguese>
+			</Key>
+			<Key ID="str_spec_leaving">
+				<Original>Leaving spectator mode...</Original>
+				<English>Leaving spectator mode...</English>
+				<Portuguese>Saindo do modo espectador...</Portuguese>
+			</Key>
+			<Key ID="str_spec_exposition_end">
+				<Original>This player camera is not shared with you anymore.</Original>
+				<English>This player camera is not shared with you anymore.</English>
+				<Portuguese>Este player não esta mais exposto para voce.</Portuguese>
+			</Key>
+			<Key ID="str_spec_left">
+				<Original>You left the spectator mode.</Original>
+				<English>You left the spectator mode.</English>
+				<Portuguese>Voce saiu do modo espectador.</Portuguese>
+			</Key>
+			<Key ID="str_spec_cant_cmb">
+				<Original>You cant spectate while in combat.</Original>
+				<English>You cant spectate while in combat.</English>
+				<Portuguese>Voce não pode espectar enquanto estiver em combate.</Portuguese>
+			</Key>
+			<Key ID="str_trust_you_revoke">
+				<Original>%1 is not a trusted person anymore.</Original>
+				<English>%1 is not a trusted person anymore.</English>
+				<Portuguese>Voce deixou de confiar em %1.</Portuguese>
+			</Key>
+			<Key ID="str_trust_you_trust">
+				<Original>You trust in %1.</Original>
+				<English>You trust in %1.</English>
+				<Portuguese>Voce confia em %1.</Portuguese>
+			</Key>
+			<Key ID="str_nothing_to_show">
+				<Original>No options to show!</Original>
+				<English>No options to show!</English>
+				<Portuguese>Sem opcoes para mostrar!</Portuguese>
+			</Key>
+			<Key ID="str_spec_must_leave">
+				<Original>You need to leave the spectator mod first (space bar).</Original>
+				<English>You need to leave the spectator mod first (space bar).</English>
+				<Portuguese>Voce precisa sair do modo espectador primeiro (Barra de Espaco)!</Portuguese>
+			</Key>
+			<Key ID="str_menu_must_close">
+				<Original>You need to close the actual menu first.</Original>
+				<English>You need to close the actual menu first.</English>
+				<Portuguese>Voce precisa fechar o menu atual primeiro.</Portuguese>
+			</Key>
+			<Key ID="str_tele_moved">
+				<Original>%1 was moved.</Original>
+				<English>%1 was moved.</English>
+				<Portuguese>%1 foi movido.</Portuguese>
+			</Key>
+			<Key ID="str_tele_no_position">
+				<Original>Your vehicle is in use and dont have free positions.\nNot moved...</Original>
+				<English>Your vehicle is in use and dont have free positions.\nNot moved...</English>
+				<Portuguese>Seu veiculo esta em uso e não possue posicoes livres.\nNão movido...</Portuguese>
+			</Key>
+			<Key ID="str_tele_cant_driver">
+				<Original>The player is driver in a heli or is in a parachute\nand cant be teleported...</Original>
+				<English>The player is driver in a heli or is in a parachute\nand cant be teleported...</English>
+				<Portuguese>O player esta pilotando um heli ou esta em um paraquedas\ne não pode ser teleportado...</Portuguese>
+			</Key>
+			<Key ID="str_tele_no_pos_destine">
+				<Original>%1 is in a vehicle without free positions.\nMoved near.</Original>
+				<English>%1 is in a vehicle without free positions.\nMoved near.</English>
+				<Portuguese>%1 esta em um veiculo sem posicoes livres.\nMovido para perto do veiculo.</Portuguese>
+			</Key>
+			<Key ID="str_props_give_to">
+				<Original>Propertie %1 given to %2.</Original>
+				<English>Propertie %1 given to %2.</English>
+				<Portuguese>Propriedade %1 dada para %2.</Portuguese>
+			</Key>
+			<Key ID="str_godmode_off">
+				<Original>God Mode on.</Original>
+				<English>God Mode on.</English>
+				<Portuguese>God Mode Desligado.</Portuguese>
+			</Key>
+			<Key ID="str_godmode_on">
+				<Original>God Mode on. Infinite ammo.</Original>
+				<English>God Mode on. Infinite ammo.</English>
+				<Portuguese>God Mode Ligado. Munição infinita.</Portuguese>
+			</Key>
+			<Key ID="str_allsee_on">
+				<Original>See and access all is on!</Original>
+				<English>See and access all is on!</English>
+				<Portuguese>Ver e acessar tudo esta ligado!</Portuguese>
+			</Key>
+			<Key ID="str_allsee_off">
+				<Original>See and access all is off!</Original>
+				<English>See and access all is off!</English>
+				<Portuguese>Ver e acessar tudo esta desligado!</Portuguese>
+			</Key>
+			<Key ID="str_terr_default_to_off">
+				<Original>Disable the default terrain view first!</Original>
+				<English>Disable the default terrain view first!</English>
+				<Portuguese>Desligue a visao padrao de terrenos primeiro!</Portuguese>
+			</Key>
+			<Key ID="str_grass_on">
+				<Original>Grass on!</Original>
+				<English>Grass on!</English>
+				<Portuguese>Grama ligada!</Portuguese>
+			</Key>
+			<Key ID="str_grass_off">
+				<Original>Grass off!</Original>
+				<English>Grass off!</English>
+				<Portuguese>Grama desligada!</Portuguese>
+			</Key>
+			<Key ID="str_scut_ins">
+				<Original>Short Cut: Insert.</Original>
+				<English>Short Cut: Insert.</English>
+				<Portuguese>Atalho: Insert.</Portuguese>
+			</Key>
+			<Key ID="str_vault_scut_time">
+				<Original>Short Cut: Alt + v.\nWait %1 seconds to open/close the vault again!</Original>
+				<English>Short Cut: Alt + v.\nWait %1 seconds to open/close the vault again!</English>
+				<Portuguese>Atalho: Alt + v.\nEspere %1 segundos para abrir/fechar o cofre novamente!</Portuguese>
+			</Key>
+			<Key ID="str_vault_scut">
+				<Original>Short Cut: Alt + v.</Original>
+				<English>Short Cut: Alt + v.</English>
+				<Portuguese>Atalho: Alt + v.</Portuguese>
+			</Key>
+			<Key ID="str_scut_ear_plugs">
+				<Original>Short Cut: F1.</Original>
+				<English>Short Cut: F1.</English>
+				<Portuguese>Atalho: F1.</Portuguese>
+			</Key>
+			<Key ID="str_bpath_on">
+				<Original>Bullet path on.</Original>
+				<English>Bullet path on.</English>
+				<Portuguese>Rastro ligado.</Portuguese>
+			</Key>
+			<Key ID="str_bpath_off">
+				<Original>Bullet path off.</Original>
+				<English>Bullet path off.</English>
+				<Portuguese>Rastro Desligado!</Portuguese>
+			</Key>
+			<Key ID="str_fps_on">
+				<Original>Remote objects update optimized!</Original>
+				<English>Remote objects update optimized!</English>
+				<Portuguese>Update de objetos over net otimizado!</Portuguese>
+			</Key>
+			<Key ID="str_fps_off">
+				<Original>Full update on remote objects.</Original>
+				<English>Full update on remote objects.</English>
+				<Portuguese>Atualização completa de objetos remotos.</Portuguese>
+			</Key>
+			<Key ID="str_scut_special_items">
+				<Original>Short Cut: Alt + i.</Original>
+				<English>Short Cut: Alt + i.</English>
+				<Portuguese>Atalho: Alt + i.</Portuguese>
+			</Key>
+			<Key ID="str_scut_3d_marks">
+				<Original>Press Ctrl + 1, Ctrl + 2 or Ctrl + 3 to mark objects or positions\nin the 3D screen. Yours friends can see it.</Original>
+				<English>Press Ctrl + 1, Ctrl + 2 or Ctrl + 3 to mark objects or positions\nin the 3D screen. Yours friends can see it.</English>
+				<Portuguese>Pressione Ctrl + 1, Ctrl + 2 ou Ctrl + 3\npara marcar objetos ou posicoes para seus\namigos na tela 3D.</Portuguese>
+			</Key>
+			<Key ID="str_scut_parachute">
+				<Original>Press space bar to open the parachute.</Original>
+				<English>Press space bar to open the parachute.</English>
+				<Portuguese>Pressione BARRA DE ESPACO para abrir o paraquedas.</Portuguese>
+			</Key>
+			<Key ID="str_scut_fly">
+				<Original>On spawn, before open the parachute, you can press Shift + W and Shift + S to fly.</Original>
+				<English>On spawn, before open the parachute, you can press Shift + W and Shift + S to fly.</English>
+				<Portuguese>Quando spawnando, antes de abrir o paraquedas, voce pode usar o sky diver com as teclas Shift + W e Shift + S.\nVoce podera voar logas distancias.</Portuguese>
+			</Key>
+			<Key ID="str_player_cant_find">
+				<Original>The player disconnected or respawned.</Original>
+				<English>The player disconnected or respawned.</English>
+				<Portuguese>O Player desconectou ou renasceu.</Portuguese>
+			</Key>
+			<Key ID="str_price">
+				<Original>Price</Original>
+				<English>Price</English>
+				<Portuguese>Preço</Portuguese>
+			</Key>
+			<Key ID="str_public">
+				<Original>Public</Original>
+				<English>Public</English>
+				<Portuguese>Publico</Portuguese>
+			</Key>
+			<Key ID="str_ofenders_show">
+				<Original>Date > %1\nOwner > %2\nObject > %3%4%5</Original>
+				<English>Date > %1\nOwner > %2\nObject > %3%4%5</English>
+				<Portuguese>Data > %1\nDono > %2\nObjeto > %3%4%5</Portuguese>
+			</Key>
+			<Key ID="str_mapmark_done">
+				<Original>Area marked on the map!</Original>
+				<English>Area marked on the map!</English>
+				<Portuguese>Area marcada no mapa!</Portuguese>
+			</Key>
+			<Key ID="str_mapmark_write">
+				<Original>ID list of objects %1 meters from the player writen on log.</Original>
+				<English>ID list of objects %1 meters from the player writen on log.</English>
+				<Portuguese>Lista de IDs a %1 metros do player gerada no log!</Portuguese>
+			</Key>
+			<Key ID="str_menu00_tittle">
+				<Original>CHOOSE AN OPTION:</Original>
+				<English>CHOOSE AN OPTION:</English>
+				<Portuguese>ESCOLHA UMA OPCAO:</Portuguese>
+			</Key>
+			<Key ID="str_menu01_tittle">
+				<Original>PEOPLE I TRUST:</Original>
+				<English>PEOPLE I TRUST:</English>
+				<Portuguese>PESSOAS QUE CONFIO</Portuguese>
+			</Key>
+			<Key ID="str_menu02_tittle">
+				<Original>PEOPLE THAT TRUST IN ME</Original>
+				<English>PEOPLE THAT TRUST IN ME</English>
+				<Portuguese>PESSOAS QUE CONFIAM EM MIM</Portuguese>
+			</Key>
+			<Key ID="str_menu03_tittle">
+				<Original>RECIPROCAL TRUST</Original>
+				<English>RECIPROCAL TRUST</English>
+				<Portuguese>CONFIANCA RECIPROCA</Portuguese>
+			</Key>
+			<Key ID="str_menu04_tittle">
+				<Original>TRUST SOMEONE</Original>
+				<English>TRUST SOMEONE</English>
+				<Portuguese>CONFIAR EM ALGUEM</Portuguese>
+			</Key>
+			<Key ID="str_menu05_tittle">
+				<Original>REVOKE TRUST</Original>
+				<English>REVOKE TRUST</English>
+				<Portuguese>DESFAZER CONFIANÇA</Portuguese>
+			</Key>
+			<Key ID="str_menu06_tittle">
+				<Original>YOUR STATISTICS</Original>
+				<English>YOUR STATISTICS</English>
+				<Portuguese>SUAS ESTATISTICAS</Portuguese>
+			</Key>
+			<Key ID="str_menu07_tittle">
+				<Original>SERVER RANK</Original>
+				<English>SERVER RANK</English>
+				<Portuguese>RANK DO SERVIDOR</Portuguese>
+			</Key>
+			<Key ID="str_menu08_tittle">
+				<Original>SPECIFIC RANK</Original>
+				<English>SPECIFIC RANK</English>
+				<Portuguese>RANKING ESPECIFICO</Portuguese>
+			</Key>
+			<Key ID="str_menu12_tittle">
+				<Original>CONFIRM?</Original>
+				<English>CONFIRM?</English>
+				<Portuguese>CONFIRMA COMPRA?</Portuguese>
+			</Key>
+			<Key ID="str_menu17_tittle">
+				<Original>ACTION OVER A PLAYER</Original>
+				<English>ACTION OVER A PLAYER</English>
+				<Portuguese>AÇÃO SOBRE UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu18_tittle">
+				<Original>BRING PLAYER TO ME</Original>
+				<English>BRING PLAYER TO ME</English>
+				<Portuguese>TRAGA O PLAYER PARA MIM</Portuguese>
+			</Key>
+			<Key ID="str_menu19_tittle">
+				<Original>GO TO A PLAYER</Original>
+				<English>GO TO A PLAYER</English>
+				<Portuguese>VA ATE UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu20_tittle">
+				<Original>HEAL A PLAYER</Original>
+				<English>HEAL A PLAYER</English>
+				<Portuguese>CURAR UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu21_tittle">
+				<Original>KILL A PLAYER</Original>
+				<English>KILL A PLAYER</English>
+				<Portuguese>MATAR UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu22_tittle">
+				<Original>YOUR PROPERTIES</Original>
+				<English>YOUR PROPERTIES</English>
+				<Portuguese>SUAS PROPRIEDADES</Portuguese>
+			</Key>
+			<Key ID="str_menu23_tittle">
+				<Original>CHANGE SHARE TYPE</Original>
+				<English>CHANGE SHARE TYPE</English>
+				<Portuguese>ESCOLHA A PARTILHA</Portuguese>
+			</Key>
+			<Key ID="str_menu24_tittle">
+				<Original>SELECT A PLAYER TO RECEIVE YOUR PROPERTIE</Original>
+				<English>SELECT A PLAYER TO RECEIVE YOUR PROPERTIE</English>
+				<Portuguese>SELECIONE UM PLAYER PARA RECEBER SUA PROPRIEDADE</Portuguese>
+			</Key>
+			<Key ID="str_menu25_tittle">
+				<Original>CONFIRM DESAPROPIATION</Original>
+				<English>CONFIRM DESAPROPIATION</English>
+				<Portuguese>CONFIRME A DESPROPRIACAO</Portuguese>
+			</Key>
+			<Key ID="str_menu26_tittle">
+				<Original>CONFIRM DESTRUCTION</Original>
+				<English>CONFIRM DESTRUCTION</English>
+				<Portuguese>CONFIRME A DESTRUICAO</Portuguese>
+			</Key>
+			<Key ID="str_menu29_tittle">
+				<Original>ADMIN MENU</Original>
+				<English>ADMIN MENU</English>
+				<Portuguese>MENU DO ADMIN</Portuguese>
+			</Key>
+			<Key ID="str_menu30_tittle">
+				<Original>PLAYER MENU</Original>
+				<English>PLAYER MENU</English>
+				<Portuguese>MENU DO PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu31_tittle">
+				<Original>REMOVE ITEM</Original>
+				<English>REMOVE ITEM</English>
+				<Portuguese>REMOVER ITEM</Portuguese>
+			</Key>
+			<Key ID="str_menu32_tittle">
+				<Original>SELECT A PLAYER</Original>
+				<English>SELECT A PLAYER</English>
+				<Portuguese>SELECIONE UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu33_tittle">
+				<Original>TRANSFER TO %1</Original>
+				<English>TRANSFER TO %1</English>
+				<Portuguese>TRANSFERIR PARA %1</Portuguese>
+			</Key>
+			<Key ID="str_menu34_tittle">
+				<Original>CONFIRM TRANSFER OF $%1 TO THE PLAYER %2.</Original>
+				<English>CONFIRM TRANSFER OF $%1 TO THE PLAYER %2.</English>
+				<Portuguese>CONFIRME A TRANSFERENCIA DE $%1 PARA O PLAYER %2.</Portuguese>
+			</Key>
+			<Key ID="str_menu35_tittle">
+				<Original>SPECIAL ITEMS</Original>
+				<English>SPECIAL ITEMS</English>
+				<Portuguese>ITENS ESPECIAIS</Portuguese>
+			</Key>
+			<Key ID="str_menu36_tittle">
+				<Original>SELECT TIME</Original>
+				<English>SELECT TIME</English>
+				<Portuguese>SELECIONE A HORA</Portuguese>
+			</Key>
+			<Key ID="str_menu37_tittle">
+				<Original>SELECT MINUTES</Original>
+				<English>SELECT MINUTES</English>
+				<Portuguese>SELECIONE OS MINUTOS</Portuguese>
+			</Key>
+			<Key ID="str_menu38_tittle">
+				<Original>SELECT TIME SPEED</Original>
+				<English>SELECT TIME SPEED</English>
+				<Portuguese>SELECIONE A VELOCIDADE DO TEMPO</Portuguese>
+			</Key>
+			<Key ID="str_menu39_tittle">
+				<Original>WEATHER: CLOUDS</Original>
+				<English>WEATHER: CLOUDS</English>
+				<Portuguese>CLIMA: NUVENS</Portuguese>
+			</Key>
+			<Key ID="str_menu40_tittle">
+				<Original>WEATHER: RAIN</Original>
+				<English>WEATHER: RAIN</English>
+				<Portuguese>CLIMA: CHUVA</Portuguese>
+			</Key>
+			<Key ID="str_menu41_tittle">
+				<Original>WEATHER: WIND</Original>
+				<English>WEATHER: WIND</English>
+				<Portuguese>CLIMA: VENTO</Portuguese>
+			</Key>
+			<Key ID="str_menu42_tittle">
+				<Original>WEATHER: GUTS</Original>
+				<English>WEATHER: GUTS</English>
+				<Portuguese>CLIMA: RAJADAS</Portuguese>
+			</Key>
+			<Key ID="str_menu43_tittle">
+				<Original>SPECT A PLAYER (ADMIN)</Original>
+				<English>SPECT A PLAYER (ADMIN)</English>
+				<Portuguese>ESPECTAR UM PLAYER (ADMIN)</Portuguese>
+			</Key>
+			<Key ID="str_menu44_tittle">
+				<Original>SPECT A PLAYER</Original>
+				<English>SPECT A PLAYER</English>
+				<Portuguese>ESPECTAR UM PLAYER</Portuguese>
+			</Key>
+			<Key ID="str_menu45_tittle">
+				<Original>SET YOUR EXPOSITION</Original>
+				<English>SET YOUR EXPOSITION</English>
+				<Portuguese>ESCOLHA SUA EXPOSICAO</Portuguese>
+			</Key>
+			<Key ID="str_menu46_tittle">
+				<Original>LIST OF DESTROYED OBJECTS</Original>
+				<English>LIST OF DESTROYED OBJECTS</English>
+				<Portuguese>LISTA DE OBJETOS DESTRUIDOS</Portuguese>
+			</Key>
+			<Key ID="str_menu47_tittle">
+				<Original>GENERATE ID LIST</Original>
+				<English>GENERATE ID LIST</English>
+				<Portuguese>GERAR LISTA DE ID</Portuguese>
+			</Key>
+			<Key ID="str_menu48_tittle">
+				<Original>RECEIVED MESSAGES</Original>
+				<English>RECEIVED MESSAGES</English>
+				<Portuguese>MENSAGENS RECEBIDAS</Portuguese>
+			</Key>
+			<Key ID="str_menu49_tittle">
+				<Original>FEDIDEX EXPRESS</Original>
+				<English>FEDIDEX EXPRESS</English>
+				<Portuguese>FEDIDEX EXPRESS</Portuguese>
+			</Key>
+			<Key ID="str_menu49_subtittle0">
+				<Original>The Fedidex vehicles disappears on server restart.</Original>
+				<English>The Fedidex vehicles disappears on server restart.</English>
+				<Portuguese>Os veiculos Fedidex somem no restart.</Portuguese>
+			</Key>
+			<Key ID="str_menu50_tittle">
+				<Original>SELECT A GROUP</Original>
+				<English>SELECT A GROUP</English>
+				<Portuguese>ESCOLHA UM GRUPO</Portuguese>
+			</Key>
+			<Key ID="str_menu51_tittle">
+				<Original>SELECT AN OBJECT</Original>
+				<English>SELECT AN OBJECT</English>
+				<Portuguese>ESCOLHA UM OBJETO</Portuguese>
+			</Key>
+			<Key ID="str_menu52_tittle">
+				<Original>SELECT A KIT</Original>
+				<English>SELECT A KIT</English>
+				<Portuguese>ESCOLHA UM KIT</Portuguese>
+			</Key>
+			<Key ID="str_menu53_tittle">
+				<Original>OBJECTS LIST</Original>
+				<English>OBJECTS LIST</English>
+				<Portuguese>LISTA DE OBJETOS</Portuguese>
+			</Key>
+			<Key ID="str_menu54_tittle">
+				<Original>ATM MENU</Original>
+				<English>ATM MENU</English>
+				<Portuguese>MENU ATM</Portuguese>
+			</Key>
+			<Key ID="str_menu55_tittle">
+				<Original>DEPOSIT</Original>
+				<English>DEPOSIT</English>
+				<Portuguese>DEPOSITO</Portuguese>
+			</Key>
+			<Key ID="str_menu56_tittle">
+				<Original>WITHDRAW</Original>
+				<English>WITHDRAW</English>
+				<Portuguese>SAQUE</Portuguese>
+			</Key>
+			<Key ID="str_menu58_tittle">
+				<Original>OBJECT CUSTOM FRIENDS MENU: %1</Original>
+				<English>OBJECT CUSTOM FRIENDS MENU: %1</English>
+				<Portuguese>MENU DE AMIGOS CUSTOM. DO OBJETO: %1</Portuguese>
+			</Key>
+			<Key ID="str_menu59_tittle">
+				<Original>SEE OBJECT CUSTOM FRIENDS: %1</Original>
+				<English>SEE OBJECT CUSTOM FRIENDS: %1</English>
+				<Portuguese>VER AMIGO CUSTOM. DO OBJETO: %1</Portuguese>
+			</Key>
+			<Key ID="str_menu60_tittle">
+				<Original>ADD OBJECT CUSTOM FRIEND: %1</Original>
+				<English>ADD OBJECT CUSTOM FRIEND: %1</English>
+				<Portuguese>ADICIONA AMIGO CUSTOM. NO OBJETO: %1</Portuguese>
+			</Key>
+			<Key ID="str_menu61_tittle">
+				<Original>REMOVE OBJECT CUSTOM FRIEND: %1</Original>
+				<English>REMOVE OBJECT CUSTOM FRIEND: %1</English>
+				<Portuguese>REMOVER AMIGO CUSTOM. DO OBJETO: %1</Portuguese>
+			</Key>
+			<Key ID="str_menu00_opt0">
+				<Original>See people i trust</Original>
+				<English>See people i trust</English>
+				<Portuguese>Ver em quem eu confio</Portuguese>
+			</Key>
+			<Key ID="str_menu00_opt1">
+				<Original>See who trust me</Original>
+				<English>See who trust me</English>
+				<Portuguese>Ver quem confia em mim</Portuguese>
+			</Key>
+			<Key ID="str_menu00_opt2">
+				<Original>My reciprocal trusts</Original>
+				<English>My reciprocal trusts</English>
+				<Portuguese>Minhas confianças reciprocas</Portuguese>
+			</Key>
+			<Key ID="str_menu00_opt3">
+				<Original>Trust someone on-line</Original>
+				<English>Trust someone on-line</English>
+				<Portuguese>Confiar em alguem on-line</Portuguese>
+			</Key>
+			<Key ID="str_menu00_opt4">
+				<Original>Revoke trust</Original>
+				<English>Revoke trust</English>
+				<Portuguese>Desfazer confiança</Portuguese>
+			</Key>
+			<Key ID="str_menu01_subtittle0">
+				<Original>List of players i trust.</Original>
+				<English>List of players i trust.</English>
+				<Portuguese>Lista de pessoas em quem voce confia.</Portuguese>
+			</Key>
+			<Key ID="str_menu02_subtittle0">
+				<Original>List of players that trust in me.</Original>
+				<English>List of players that trust in me.</English>
+				<Portuguese>Lista de pessoas que confiam em mim.</Portuguese>
+			</Key>
+			<Key ID="str_menu03_subtittle0">
+				<Original>Players i trust and that trust in me.</Original>
+				<English>Players i trust and that trust in me.</English>
+				<Portuguese>Pessoas em quem confio e que confiam em mim.</Portuguese>
+			</Key>
+			<Key ID="str_menu04_subtittle0">
+				<Original>Select the player you want ot trust.</Original>
+				<English>Select the player you want ot trust.</English>
+				<Portuguese>Selecione em quem voce quer confiar.</Portuguese>
+			</Key>
+			<Key ID="str_menu05_subtittle0">
+				<Original>Select the player to revoke your trust.</Original>
+				<English>Select the player to revoke your trust.</English>
+				<Portuguese>Selecione em quem deixar de confiar.</Portuguese>
+			</Key>
+			<Key ID="str_shop_msm">
+				<Original>Half Militar Shop</Original>
+				<English>Half Militar Shop</English>
+				<Portuguese>Meio Shop Militar</Portuguese>
+			</Key>
+			<Key ID="str_shop_sm">
+				<Original>Militar Shop</Original>
+				<English>Militar Shop</English>
+				<Portuguese>Shop Militar</Portuguese>
+			</Key>
+			<Key ID="str_shop_sc">
+				<Original>Civil Shop</Original>
+				<English>Civil Shop</English>
+				<Portuguese>Shop Civil</Portuguese>
+			</Key>
+			<Key ID="str_shop_mnm">
+				<Original>Militar Black Market</Original>
+				<English>Militar Black Market</English>
+				<Portuguese>Mercado Negro Militar</Portuguese>
+			</Key>
+			<Key ID="str_shop_sma">
+				<Original>Armed Militar Shop</Original>
+				<English>Armed Militar Shop</English>
+				<Portuguese>Shop Militar Armado</Portuguese>
+			</Key>
+			<Key ID="str_shop_scp">
+				<Original>Full Shop</Original>
+				<English>Full Shop</English>
+				<Portuguese>Shop Completo</Portuguese>
+			</Key>
+			<Key ID="str_shop_se">
+				<Original>Extreme Shop</Original>
+				<English>Extreme Shop</English>
+				<Portuguese>Shop Extremo</Portuguese>
+			</Key>
+			<Key ID="str_shop_fe">
+				<Original>Fedidex Express</Original>
+				<English>Fedidex Express</English>
+				<Portuguese>Fedidex Express</Portuguese>
+			</Key>
+			<Key ID="str_shop_air">
+				<Original>Air Shop</Original>
+				<English>Air Shop</English>
+				<Portuguese>Shop Aéreo</Portuguese>
+			</Key>
+			<Key ID="str_shop_some">
+				<Original>Shop</Original>
+				<English>Shop</English>
+				<Portuguese>Shop</Portuguese>
+			</Key>
+			<Key ID="str_menu22_subtittle0">
+				<Original>Condition: %1 %</Original>
+				<English>Condition: %1 %</English>
+				<Portuguese>Vida: %1 %</Portuguese>
+			</Key>
+			<Key ID="str_menu22_subtittle1">
+				<Original>Select an option:</Original>
+				<English>Select an option:</English>
+				<Portuguese>Escolha uma opção:</Portuguese>
+			</Key>
+			<Key ID="str_menu23_subtittle0">
+				<Original>Actual Share:</Original>
+				<English>Actual Share:</English>
+				<Portuguese>Partilha Atual:</Portuguese>
+			</Key>
+			<Key ID="str_menu24_subtittle0">
+				<Original>Select a player!</Original>
+				<English>Select a player!</English>
+				<Portuguese>Escolha um player!</Portuguese>
+			</Key>
+			<Key ID="str_menu25_subtittle0">
+				<Original>Select an option:</Original>
+				<English>Select an option:</English>
+				<Portuguese>Escolha uma opcao:</Portuguese>
+			</Key>
+			<Key ID="str_menu33_subtittle0">
+				<Original>SET THE AMOUNT:</Original>
+				<English>SET THE AMOUNT:</English>
+				<Portuguese>SELECIONE A QUANTIA:</Portuguese>
+			</Key>
+			<Key ID="str_menu41_subtittle0">
+				<Original>Wind direction will be set to player direction.</Original>
+				<English>Wind direction will be set to player direction.</English>
+				<Portuguese>A direcao do vento sera a direcao do player.</Portuguese>
+			</Key>
+			<Key ID="str_menu45_subtittle0">
+				<Original>Actual Exposition:</Original>
+				<English>Actual Exposition:</English>
+				<Portuguese>Exposicao Atual:</Portuguese>
+			</Key>
+			<Key ID="str_expo_wit">
+				<Original>Who i trust</Original>
+				<English>Who i trust</English>
+				<Portuguese>Quem eu confio</Portuguese>
+			</Key>
+			<Key ID="str_expo_witr">
+				<Original>Who i trust reciprocally</Original>
+				<English>Who i trust reciprocally</English>
+				<Portuguese>Quem eu confio reciprocamente</Portuguese>
+			</Key>
+			<Key ID="str_expo_everyone">
+				<Original>Everyone</Original>
+				<English>Everyone</English>
+				<Portuguese>Todos</Portuguese>
+			</Key>
+			<Key ID="str_expo_om">
+				<Original>Only me</Original>
+				<English>Only me</English>
+				<Portuguese>Somente eu</Portuguese>
+			</Key>
+			<Key ID="str_menu12_opt0">
+				<Original>Check/Remove</Original>
+				<English>Check/Remove</English>
+				<Portuguese>Checar/Remover</Portuguese>
+			</Key>
+			<Key ID="str_menu12_opt1">
+				<Original>Buy</Original>
+				<English>Buy</English>
+				<Portuguese>Comprar</Portuguese>
+			</Key>
+			<Key ID="str_menu12_opt2">
+				<Original>Cancel</Original>
+				<English>Cancel</English>
+				<Portuguese>Cancelar</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt0">
+				<Original>Bring a player to me</Original>
+				<English>Bring a player to me</English>
+				<Portuguese>Trazer player ate mim</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt1">
+				<Original>Teleport to a player</Original>
+				<English>Teleport to a player</English>
+				<Portuguese>Teleportar ate um player</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt2">
+				<Original>Heal player</Original>
+				<English>Heal player</English>
+				<Portuguese>Curar player</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt3">
+				<Original>Kill player</Original>
+				<English>Kill player</English>
+				<Portuguese>Matar player</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt4">
+				<Original>Spectate a player</Original>
+				<English>Spectate a player</English>
+				<Portuguese>Espectar um player</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt5">
+				<Original>Player money: Hand</Original>
+				<English>Player money: Hand</English>
+				<Portuguese>Dinheiro do player: Mão</Portuguese>
+			</Key>
+			<Key ID="str_menu17_opt6">
+				<Original>Player money: Bank</Original>
+				<English>Player money: Bank</English>
+				<Portuguese>Dinheiro do player: Banco</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt0">
+				<Original>Set Share Type</Original>
+				<English>Set Share Type</English>
+				<Portuguese>Escolha a Partilha</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt0adm">
+				<Original>Set Share Type (Adm)</Original>
+				<English>Set Share Type (Adm)</English>
+				<Portuguese>Escolha Partilha (Adm)</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt1">
+				<Original>Destroy</Original>
+				<English>Destroy</English>
+				<Portuguese>Destruir</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt1adm">
+				<Original>Destroy (Adm)</Original>
+				<English>Destroy (Adm)</English>
+				<Portuguese>Destruir (Adm)</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt2">
+				<Original>Make Public</Original>
+				<English>Make Public</English>
+				<Portuguese>Tornar Publico</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt2adm">
+				<Original>Make Public (Adm)</Original>
+				<English>Make Public (Adm)</English>
+				<Portuguese>Tornar Publico (Adm)</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt3">
+				<Original>Give to someone</Original>
+				<English>Give to someone</English>
+				<Portuguese>Dar de Presente</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt3adm">
+				<Original>Set Custom Share (Adm)</Original>
+				<English>Set Custom Share (Adm)</English>
+				<Portuguese>Escolha Partilha Customizada (Adm)</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt4">
+				<Original>Set Custom Share</Original>
+				<English>Set Custom Share</English>
+				<Portuguese>Escolha Partilha Customizada</Portuguese>
+			</Key>
+			<Key ID="str_menu22_opt4adm">
+				<Original>Set Custom Share</Original>
+				<English>Set Custom Share</English>
+				<Portuguese>Escolha Partilha Customizada</Portuguese>
+			</Key>
+			<Key ID="str_terr_get_info">
+				<Original>CLICK ON THE TERRAINS TO GET INFORMATION</Original>
+				<English>CLICK ON THE TERRAINS TO GET INFORMATION</English>
+				<Portuguese>CLIQUE NO TERRENO PARA PEGAR MAIS INFORMACAO</Portuguese>
+			</Key>
+			<Key ID="str_back_to">
+				<Original>reset to</Original>
+				<English>reset to</English>
+				<Portuguese>resetar para</Portuguese>
+			</Key>
+			<Key ID="str_menu34_opt0">
+				<Original>Give Money</Original>
+				<English>Give Money</English>
+				<Portuguese>Dar Dinheiro</Portuguese>
+			</Key>
+			<Key ID="str_menu34_opt1">
+				<Original>Cancel</Original>
+				<English>Cancel</English>
+				<Portuguese>Cancelar</Portuguese>
+			</Key>
+			<Key ID="str_a_day_in">
+				<Original>A day in</Original>
+				<English>A day in</English>
+				<Portuguese>Um dia em</Portuguese>
+			</Key>
+			<Key ID="str_clouds">
+				<Original>Clouds</Original>
+				<English>Clouds</English>
+				<Portuguese>Nuvens</Portuguese>
+			</Key>
+			<Key ID="str_can_rain">
+				<Original>(can rain)</Original>
+				<English>(can rain)</English>
+				<Portuguese>(pode chover)</Portuguese>
+			</Key>
+			<Key ID="str_rain">
+				<Original>Rain</Original>
+				<English>Rain</English>
+				<Portuguese>Chuva</Portuguese>
+			</Key>
+			<Key ID="str_wind">
+				<Original>Wind</Original>
+				<English>Wind</English>
+				<Portuguese>Vento</Portuguese>
+			</Key>
+			<Key ID="str_speed_ms">
+				<Original>m/s</Original>
+				<English>m/s</English>
+				<Portuguese>m/s</Portuguese>
+			</Key>
+			<Key ID="str_guts">
+				<Original>Guts</Original>
+				<English>Guts</English>
+				<Portuguese>Rajadas</Portuguese>
+			</Key>
+			<Key ID="str_meters">
+				<Original>meters</Original>
+				<English>meters</English>
+				<Portuguese>metros</Portuguese>
+			</Key>
+			<Key ID="str_menu49_opt0">
+				<Original>Express Items</Original>
+				<English>Express Items</English>
+				<Portuguese>Itens Expressos</Portuguese>
+			</Key>
+			<Key ID="str_menu49_opt1">
+				<Original>Express Vehicles</Original>
+				<English>Express Vehicles</English>
+				<Portuguese>Veiculos Expressos</Portuguese>
+			</Key>
+			<Key ID="str_your_money">
+				<Original>YOUR MONEY: $ %1</Original>
+				<English>YOUR MONEY: $ %1</English>
+				<Portuguese>SEU DINHEIRO: $ %1</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_navigate">
+				<Original>Navigate:</Original>
+				<English>Navigate:</English>
+				<Portuguese>Navegar:</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_navigate_keys">
+				<Original>Keys W and S</Original>
+				<English>Keys W and S</English>
+				<Portuguese>Teclas W e S</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_select">
+				<Original>Select:</Original>
+				<English>Select:</English>
+				<Portuguese>Selecionar:</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_select_key">
+				<Original>Space Bar</Original>
+				<English>Space Bar</English>
+				<Portuguese>Barra de Espaço</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_back">
+				<Original>Back:</Original>
+				<English>Back:</English>
+				<Portuguese>Voltar:</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_back_key">
+				<Original>Key A</Original>
+				<English>Key A</English>
+				<Portuguese>Tecla A</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_total_price">
+				<Original>TOTAL PRICE: $ %1</Original>
+				<English>TOTAL PRICE: $ %1</English>
+				<Portuguese>PREÇO TOTAL: $ %1</Portuguese>
+			</Key>
+			<Key ID="str_menu_foot_to_give">
+				<Original>TO GIVE: $ %1</Original>
+				<English>TO GIVE: $ %1</English>
+				<Portuguese>A DAR: $ %1</Portuguese>
+			</Key>
+			<Key ID="str_menu23_opt0">
+				<Original>Me</Original>
+				<English>Me</English>
+				<Portuguese>Eu</Portuguese>
+			</Key>
+			<Key ID="str_menu23_opt1">
+				<Original>Me + Who i trust</Original>
+				<English>Me + Who i trust</English>
+				<Portuguese>Eu + Quem eu confio</Portuguese>
+			</Key>
+			<Key ID="str_menu23_opt2">
+				<Original>Me + Who i trust reciprocally</Original>
+				<English>Me + Who i trust reciprocally</English>
+				<Portuguese>Eu + Quem eu confio reciprocamente</Portuguese>
+			</Key>
+			<Key ID="str_menu23_opt3">
+				<Original>Everyone</Original>
+				<English>Everyone</English>
+				<Portuguese>Todos</Portuguese>
+			</Key>
+			<Key ID="str_menu23_opt4">
+				<Original>No one</Original>
+				<English>No one</English>
+				<Portuguese>Ninguem</Portuguese>
+			</Key>
+			<Key ID="str_confirm">
+				<Original>Confirm</Original>
+				<English>Confirm</English>
+				<Portuguese>Confirmar</Portuguese>
+			</Key>
+			<Key ID="str_menu26_the_construction">
+				<Original>The construction</Original>
+				<English>The construction</English>
+				<Portuguese>A construção</Portuguese>
+			</Key>
+			<Key ID="str_menu26_the_vehicle">
+				<Original>The vehicle</Original>
+				<English>The vehicle</English>
+				<Portuguese>O veiculo</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt0">
+				<Original>(%1) God Mode</Original>
+				<English>(%1) God Mode</English>
+				<Portuguese>(%1) God Mode</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt1">
+				<Original>(%1) See and Access All</Original>
+				<English>(%1) See and Access All</English>
+				<Portuguese>(%1) Ver e Acessar Tudo</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt2">
+				<Original>(%1) Invisible for AI</Original>
+				<English>(%1) Invisible for AI</English>
+				<Portuguese>(%1) Invisivel para Bots</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt3">
+				<Original>(%1) Show all terrains</Original>
+				<English>(%1) Show all terrains</English>
+				<Portuguese>(%1) Mostrar todos os Terrenos</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt4">
+				<Original>Map Filter (%1)</Original>
+				<English>Map Filter (%1)</English>
+				<Portuguese>Filtro Mapa (%1)</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt5">
+				<Original>Admin Market - Items</Original>
+				<English>Admin Market - Items</English>
+				<Portuguese>Mercado Admin - Itens</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt6">
+				<Original>Admin Market - Vehicles</Original>
+				<English>Admin Market - Vehicles</English>
+				<Portuguese>Mercado Admin - Veiculos</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt7">
+				<Original>Action over a player</Original>
+				<English>Action over a player</English>
+				<Portuguese>Acao sobre um player</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt8">
+				<Original>Set day hour</Original>
+				<English>Set day hour</English>
+				<Portuguese>Escolher a hora do dia</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt9">
+				<Original>Set time speed</Original>
+				<English>Set time speed</English>
+				<Portuguese>Escolher velocidade do tempo</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt10">
+				<Original>Set Weather</Original>
+				<English>Set Weather</English>
+				<Portuguese>Escolher Clima</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt11">
+				<Original>Grass on/off</Original>
+				<English>Grass on/off</English>
+				<Portuguese>Liga e desliga Grama</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt12">
+				<Original>MISSION: Start Bravo</Original>
+				<English>MISSION: Start Bravo</English>
+				<Portuguese>MISSÃO: Iniciar Bravo</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt13">
+				<Original>MISSION: Start Siege</Original>
+				<English>MISSION: Start Siege</English>
+				<Portuguese>MISSÃO: Iniciar Siege</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt14">
+				<Original>MISSION: Start Convoy</Original>
+				<English>MISSION: Start Convoy</English>
+				<Portuguese>MISSÃO: Iniciar Convoy</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt15">
+				<Original>MISSION: Start Plane Crash</Original>
+				<English>MISSION: Start Plane Crash</English>
+				<Portuguese>MISSÃO: Iniciar Queda de Avião</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt16">
+				<Original>INFO: Overcast e Forecast</Original>
+				<English>INFO: Overcast e Forecast</English>
+				<Portuguese>INFO: Overcast e Forecast</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt17">
+				<Original>CLEAN: Properties</Original>
+				<English>CLEAN: Properties</English>
+				<Portuguese>LIMPEZA: Propriedades</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt18">
+				<Original>(%1) Monitore Groups</Original>
+				<English>(%1) Monitore Groups</English>
+				<Portuguese>(%1) Monitorar Grupos</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt19">
+				<Original>Admin Build</Original>
+				<English>Admin Build</English>
+				<Portuguese>Construção de Admin</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt20">
+				<Original>Turn Invisible</Original>
+				<English>Turn Invisible</English>
+				<Portuguese>Ficar Invisível</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt21">
+				<Original>Receive $100000</Original>
+				<English>Receive $100000</English>
+				<Portuguese>Receber $100000</Portuguese>
+			</Key>
+			<Key ID="str_menu29_opt18_txt">
+				<Original>Empty CIV groups:</Original>
+				<English>Empty CIV groups:</English>
+				<Portuguese>Grupos CIVIS vazios:</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt0">
+				<Original>SHOW TUTORIAL!</Original>
+				<English>SHOW TUTORIAL!</English>
+				<Portuguese>REVER TUTORIAL!</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt1">
+				<Original>(%1) Debug Type</Original>
+				<English>(%1) Debug Type</English>
+				<Portuguese>(%1) Tipo Debug</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt2">
+				<Original>(%1) Open Vault</Original>
+				<English>(%1) Open Vault</English>
+				<Portuguese>(%1) Abrir Cofre</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt3">
+				<Original>(%1) Ear Plugs</Original>
+				<English>(%1) Ear Plugs</English>
+				<Portuguese>(%1) Tampões de Ouvido</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt4">
+				<Original>(%1) Show Near Terrains</Original>
+				<English>(%1) Show Near Terrains</English>
+				<Portuguese>(%1) Mostrar Terrenos Perto</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt5">
+				<Original>(%1) Bullet Path</Original>
+				<English>(%1) Bullet Path</English>
+				<Portuguese>(%1) Trajetoria da Bala</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt5_2">
+				<Original>(%1 meters) View Distance</Original>
+				<English>(%1 meters) View Distance</English>
+				<Portuguese>(%1 metros) Distância de Visão</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt6">
+				<Original>(%1) Magus FPS Optimization</Original>
+				<English>(%1) Magus FPS Optimization</English>
+				<Portuguese>(%1) Otimizacao de FPS Magus</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt7">
+				<Original>CMD: Weapon on Back</Original>
+				<English>CMD: Weapon on Back</English>
+				<Portuguese>CMD: Arma nas Costas</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt8">
+				<Original>CMD: Suicide Press +%1</Original>
+				<English>CMD: Suicide Press +%1</English>
+				<Portuguese>CMD: Se Matar Press +%1</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt9">
+				<Original>MENU: My Exposition</Original>
+				<English>MENU: My Exposition</English>
+				<Portuguese>MENU: Minha Exposição</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt10">
+				<Original>MENU: Special Items</Original>
+				<English>MENU: Special Items</English>
+				<Portuguese>MENU: Itens Especiais</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt11">
+				<Original>MENU: My Statistics</Original>
+				<English>MENU: My Statistics</English>
+				<Portuguese>MENU: Minhas Estatisticas</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt12">
+				<Original>MENU: Server Statistics</Original>
+				<English>MENU: Server Statistics</English>
+				<Portuguese>MENU: Estatisticas do Servidor</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt13">
+				<Original>MENU: Manage Friendship</Original>
+				<English>MENU: Manage Friendship</English>
+				<Portuguese>MENU: Gerenciar Amigos</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt14">
+				<Original>MENU: Spectate a Player</Original>
+				<English>MENU: Spectate a Player</English>
+				<Portuguese>MENU: Espectar um Player</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt15">
+				<Original>MENU: Give Money</Original>
+				<English>MENU: Give Money</English>
+				<Portuguese>MENU: Dar Dinheiro</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt16">
+				<Original>MENU: My Offenders</Original>
+				<English>MENU: My Offenders</English>
+				<Portuguese>MENU: Quem Mecheu Comigo?</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt17">
+				<Original>INFO: Friends 3D Marks</Original>
+				<English>INFO: Friends 3D Marks</English>
+				<Portuguese>INFO: Marcas para Amigos</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt18">
+				<Original>INFO: Open Parachute</Original>
+				<English>INFO: Open Parachute</English>
+				<Portuguese>INFO: Abrir Paraquedas</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt19">
+				<Original>INFO: Sky Diver</Original>
+				<English>INFO: Sky Diver</English>
+				<Portuguese>INFO: Sky Diver</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt20">
+				<Original>SERVER: Last Changes!</Original>
+				<English>SERVER: Last Changes!</English>
+				<Portuguese>SERVIDOR: Ultimas Alterações!</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt21">
+				<Original>SERVER: Next Changes!</Original>
+				<English>SERVER: Next Changes!</English>
+				<Portuguese>SERVIDOR: Proximas Alterações!</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt22">
+				<Original>Message/Group Chat Log</Original>
+				<English>Message/Group Chat Log</English>
+				<Portuguese>Log de Mensagens/Chat Grupo</Portuguese>
+			</Key>
+			<Key ID="str_menu30_opt23">
+				<Original>Construction Kits Catalog</Original>
+				<English>Construction Kits Catalog</English>
+				<Portuguese>Catálogo de Kits de Construção</Portuguese>
+			</Key>
+			<Key ID="str_debug0_0">
+				<Original>%1 fps</Original>
+				<English>%1 fps</English>
+				<Portuguese>%1 fps</Portuguese>
+			</Key>
+			<Key ID="str_debug0_1">
+				<Original>Player Menu</Original>
+				<English>Player Menu</English>
+				<Portuguese>Menu do Player</Portuguese>
+			</Key>
+			<Key ID="str_debug0_2">
+				<Original>F2</Original>
+				<English>F2</English>
+				<Portuguese>F2</Portuguese>
+			</Key>
+			<Key ID="str_debug0_3">
+				<Original>LIFE:</Original>
+				<English>LIFE:</English>
+				<Portuguese>VIDA:</Portuguese>
+			</Key>
+			<Key ID="str_debug0_4">
+				<Original>$ ON HAND:</Original>
+				<English>$ ON HAND:</English>
+				<Portuguese>$ NA MÃO:</Portuguese>
+			</Key>
+			<Key ID="str_debug0_4_2">
+				<Original>$ IN BANK:</Original>
+				<English>$ IN BANK:</English>
+				<Portuguese>$ NO BANCO:</Portuguese>
+			</Key>
+			<Key ID="str_debug1_0">
+				<Original>SERVER FPS:</Original>
+				<English>SERVER FPS:</English>
+				<Portuguese>FPS SERVIDOR:</Portuguese>
+			</Key>
+			<Key ID="str_debug1_1">
+				<Original>change debug:</Original>
+				<English>change debug:</English>
+				<Portuguese>mudar debug:</Portuguese>
+			</Key>
+			<Key ID="str_debug1_2">
+				<Original>player menu:</Original>
+				<English>player menu:</English>
+				<Portuguese>menu do player:</Portuguese>
+			</Key>
+			<Key ID="str_debug1_3">
+				<Original>admin menu:</Original>
+				<English>admin menu:</English>
+				<Portuguese>menu do admin:</Portuguese>
+			</Key>
+			<Key ID="str_debug1_4">
+				<Original>insert</Original>
+				<English>insert</English>
+				<Portuguese>insert</Portuguese>
+			</Key>
+			<Key ID="str_debug1_5">
+				<Original>F3</Original>
+				<English>F3</English>
+				<Portuguese>F3</Portuguese>
+			</Key>
+			<Key ID="str_rules_accept">
+				<Original>ACCEPT RULES</Original>
+				<English>ACCEPT RULES</English>
+				<Portuguese>ACEITO AS REGRAS</Portuguese>
+			</Key>
+			<Key ID="str_rules_not_accept">
+				<Original>LEAVE SERVER</Original>
+				<English>LEAVE SERVER</English>
+				<Portuguese>SAIR DO SERVIDOR</Portuguese>
+			</Key>
+			<Key ID="str_explist_0">
+				<Original>Killed Players</Original>
+				<English>Killed Players</English>
+				<Portuguese>Players mortos</Portuguese>
+			</Key>
+			<Key ID="str_explist_1">
+				<Original>Deaths by Players</Original>
+				<English>Deaths by Players</English>
+				<Portuguese>Mortes por player</Portuguese>
+			</Key>
+			<Key ID="str_explist_2">
+				<Original>Killed AI</Original>
+				<English>Killed AI</English>
+				<Portuguese>Bots mortos</Portuguese>
+			</Key>
+			<Key ID="str_explist_3">
+				<Original>Deaths by AI</Original>
+				<English>Deaths by AI</English>
+				<Portuguese>Mortes por bots</Portuguese>
+			</Key>
+			<Key ID="str_explist_4">
+				<Original>Walk Points</Original>
+				<English>Walk Points</English>
+				<Portuguese>Pontos de andar</Portuguese>
+			</Key>
+			<Key ID="str_explist_5">
+				<Original>Eat Times</Original>
+				<English>Eat Times</English>
+				<Portuguese>Vezes que comeu</Portuguese>
+			</Key>
+			<Key ID="str_explist_6">
+				<Original>HeadShots by Players</Original>
+				<English>HeadShots by Players</English>
+				<Portuguese>Headshots por players</Portuguese>
+			</Key>
+			<Key ID="str_explist_7">
+				<Original>HeadShots on Players</Original>
+				<English>HeadShots on Players</English>
+				<Portuguese>Headshots nos players</Portuguese>
+			</Key>
+			<Key ID="str_explist_8">
+				<Original>HeadShots by AI</Original>
+				<English>HeadShots by AI</English>
+				<Portuguese>Headshots por bots</Portuguese>
+			</Key>
+			<Key ID="str_explist_9">
+				<Original>HeadShots on AI</Original>
+				<English>HeadShots on AI</English>
+				<Portuguese>Headshots nos bots</Portuguese>
+			</Key>
+			<Key ID="str_explist_10">
+				<Original>Constructions</Original>
+				<English>Constructions</English>
+				<Portuguese>Vezes que Construiu</Portuguese>
+			</Key>
+			<Key ID="str_explist_11">
+				<Original>Impact Deaths</Original>
+				<English>Impact Deaths</English>
+				<Portuguese>Mortes por Impacto</Portuguese>
+			</Key>
+			<Key ID="str_explist_12">
+				<Original>Suicides</Original>
+				<English>Suicides</English>
+				<Portuguese>Suicidios</Portuguese>
+			</Key>
+			<Key ID="str_explist_13">
+				<Original>Vehicles Destructions</Original>
+				<English>Vehicles Destructions</English>
+				<Portuguese>Destruições de Veiculos</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_all">
+				<Original>All</Original>
+				<English>All</English>
+				<Portuguese>Tudo</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_veh">
+				<Original>Vehicles</Original>
+				<English>Vehicles</English>
+				<Portuguese>Veiculos</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_car">
+				<Original>Cars</Original>
+				<English>Cars</English>
+				<Portuguese>Carros</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_heli">
+				<Original>Helis</Original>
+				<English>Helis</English>
+				<Portuguese>Helis</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_plane">
+				<Original>Planes</Original>
+				<English>Planes</English>
+				<Portuguese>Aviões</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_turr">
+				<Original>Turrets</Original>
+				<English>Turrets</English>
+				<Portuguese>Turretas</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_ai">
+				<Original>AI</Original>
+				<English>AI</English>
+				<Portuguese>Bots</Portuguese>
+			</Key>
+			<Key ID="str_mapshow_bases">
+				<Original>Bases</Original>
+				<English>Bases</English>
+				<Portuguese>Bases</Portuguese>
+			</Key>
+			<Key ID="str_debug_type1">
+				<Original>Debug 1</Original>
+				<English>Debug 1</English>
+				<Portuguese>Debug 1</Portuguese>
+			</Key>
+			<Key ID="str_debug_type2">
+				<Original>Debug 2</Original>
+				<English>Debug 2</English>
+				<Portuguese>Debug 2</Portuguese>
+			</Key>
+			<Key ID="str_debug_type3">
+				<Original>Debug 3</Original>
+				<English>Debug 3</English>
+				<Portuguese>Debug 3</Portuguese>
+			</Key>
+			<Key ID="str_terr_click_for_info">
+				<Original>CLICK ON THE TERRAINS FOR EXTRA INFO</Original>
+				<English>CLICK ON THE TERRAINS FOR EXTRA INFO</English>
+				<Portuguese>CLIQUE NOS TERRENOS PARA MAIS INFORMACOES</Portuguese>
+			</Key>
+			<Key ID="str_terr_info0">
+				<Original>TERRAIN NUMBER: %1</Original>
+				<English>TERRAIN NUMBER: %1</English>
+				<Portuguese>NUMERO DO TERRENO: %1</Portuguese>
+			</Key>
+			<Key ID="str_terr_info1">
+				<Original>SIZE: %1 X %1</Original>
+				<English>SIZE: %1 X %1</English>
+				<Portuguese>TAMANHO: %1 X %1</Portuguese>
+			</Key>
+			<Key ID="str_terr_info2">
+				<Original>SLOPE: %1 degrees</Original>
+				<English>SLOPE: %1 degrees</English>
+				<Portuguese>DESNIVEL: %1 graus</Portuguese>
+			</Key>
+			<Key ID="str_terr_info3">
+				<Original>OBJECTS: %1</Original>
+				<English>OBJECTS: %1</English>
+				<Portuguese>OBJETOS: %1</Portuguese>
+			</Key>
+			<Key ID="str_terr_info4">
+				<Original>QUALITY: %1/9 points</Original>
+				<English>QUALITY: %1/9 points</English>
+				<Portuguese>QUALIDADE: %1/9 pontos</Portuguese>
+			</Key>
+			<Key ID="str_adda_merchant">
+				<Original>Talk to Merchant</Original>
+				<English>Talk to Merchant</English>
+				<Portuguese>Falar com o Mercante</Portuguese>
+			</Key>
+			<Key ID="str_adda_call_sub">
+				<Original>Call Subterrain Merchant</Original>
+				<English>Call Subterrain Merchant</English>
+				<Portuguese>Ligar para Mercante Subterraneo</Portuguese>
+			</Key>
+			<Key ID="str_adda_revive">
+				<Original>Revive %1!</Original>
+				<English>Revive %1!</English>
+				<Portuguese>Reviver %1!</Portuguese>
+			</Key>
+			<Key ID="str_adda_kill">
+				<Original>Finalize %1!</Original>
+				<English>Finalize %1!</English>
+				<Portuguese>Finalizar %1!</Portuguese>
+			</Key>
+			<Key ID="str_adda_crane0">
+				<Original>Weak Crane</Original>
+				<English>Weak Crane</English>
+				<Portuguese>Guindaste Fraco</Portuguese>
+			</Key>
+			<Key ID="str_adda_crane1">
+				<Original>Normal Crane</Original>
+				<English>Normal Crane</English>
+				<Portuguese>Guindaste Normal</Portuguese>
+			</Key>
+			<Key ID="str_adda_crane2">
+				<Original>Strong Crane</Original>
+				<English>Strong Crane</English>
+				<Portuguese>Guindaste Forte</Portuguese>
+			</Key>
+			<Key ID="str_adda_liberate_mhouse">
+				<Original>[ATTENTION] Liberate Map House!</Original>
+				<English>[ATTENTION] Liberate Map House!</English>
+				<Portuguese>[ATENCAO] Liberar esta casa do mapa!</Portuguese>
+			</Key>
+			<Key ID="str_adda_trans_to_recep">
+				<Original>Transfer Items to the Receptacle</Original>
+				<English>Transfer Items to the Receptacle</English>
+				<Portuguese>Transferir itens para o Receptaculo</Portuguese>
+			</Key>
+			<Key ID="str_adda_trans_to_vault">
+				<Original>Transfer items to Vault</Original>
+				<English>Transfer items to Vault</English>
+				<Portuguese>Transferir itens para o Cofre</Portuguese>
+			</Key>
+			<Key ID="str_adda_trans_to_obj">
+				<Original>Transfer items to %1</Original>
+				<English>Transfer items to %1</English>
+				<Portuguese>Transferir itens para %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_trans_from_west">
+				<Original>Loot minor Items from Special Soldier</Original>
+				<English>Loot minor Items from Special Soldier</English>
+				<Portuguese>Lotear Itens Menores do Soldado do Oeste</Portuguese>
+			</Key>
+			<Key ID="str_adda_get_money">
+				<Original>Get Money: %1 $</Original>
+				<English>Get Money: %1 $</English>
+				<Portuguese>Pegar Dinheiro: %1 $</Portuguese>
+			</Key>
+			<Key ID="str_adda_item_menu">
+				<Original>Item Menu: %1</Original>
+				<English>Item Menu: %1</English>
+				<Portuguese>Menu do Item: %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_clean_ruin">
+				<Original>Clean Ruins $ %1</Original>
+				<English>Clean Ruins $ %1</English>
+				<Portuguese>Limpar Ruinas $ %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_radar_on">
+				<Original>Turn On Radar</Original>
+				<English>Turn On Radar</English>
+				<Portuguese>Ligar Radar</Portuguese>
+			</Key>
+			<Key ID="str_adda_light_on">
+				<Original>Light On</Original>
+				<English>Light On</English>
+				<Portuguese>Ligar Luz</Portuguese>
+			</Key>
+			<Key ID="str_adda_light_off">
+				<Original>Light Off</Original>
+				<English>Light Off</English>
+				<Portuguese>Desligar Luz</Portuguese>
+			</Key>
+			<Key ID="str_adda_tow_land">
+				<Original>Call Bob Tow $ %1!</Original>
+				<English>Call Bob Tow $ %1!</English>
+				<Portuguese>Chamar Reboque $ %1!</Portuguese>
+			</Key>
+			<Key ID="str_adda_tow_end">
+				<Original>Dismiss Bot Tow</Original>
+				<English>Dismiss Bot Tow</English>
+				<Portuguese>Terminar Rebocagem!</Portuguese>
+			</Key>
+			<Key ID="str_adda_radar_cut">
+				<Original>Cut Radar Connection</Original>
+				<English>Cut Radar Connection</English>
+				<Portuguese>Cortar conexao com o radar</Portuguese>
+			</Key>
+			<Key ID="str_adda_respawn_destroy">
+				<Original>Dismantle Player Respawn $ %1</Original>
+				<English>Dismantle Player Respawn $ %1</English>
+				<Portuguese>Desfazer Respawn Alheio $ %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_mhouse_set">
+				<Original>Make this house my map house!</Original>
+				<English>Make this house my map house!</English>
+				<Portuguese>Fazer esta casa do mapa sua!</Portuguese>
+			</Key>
+			<Key ID="str_adda_no_vehicle">
+				<Original>No Vehicle</Original>
+				<English>No Vehicle</English>
+				<Portuguese>Sem Veiculo</Portuguese>
+			</Key>
+			<Key ID="str_adda_no_weapon">
+				<Original>No Weapon</Original>
+				<English>No Weapon</English>
+				<Portuguese>Sem Arma</Portuguese>
+			</Key>
+			<Key ID="str_adda_rem_veh_body">
+				<Original>Remove unconscious players from vehicle.</Original>
+				<English>Remove unconscious players from vehicle.</English>
+				<Portuguese>Remover players inconscientes do veículo.</Portuguese>
+			</Key>
+			<Key ID="str_adda_rem_veh_body_info">
+				<Original>You removed %1 from the vehicle.</Original>
+				<English>You removed %1 from the vehicle.</English>
+				<Portuguese>Você removeu %1 do veículo.</Portuguese>
+			</Key>
+			<Key ID="str_adda_rem_veh_body_ok">
+				<Original>All unconscious players removed!</Original>
+				<English>All unconscious players removed!</English>
+				<Portuguese>Players inconscientes removidos!</Portuguese>
+			</Key>
+			<Key ID="str_adda_destroy_unprotected">
+				<Original>Destroy unprotected building: %1</Original>
+				<English>Destroy unprotected building: %1</English>
+				<Portuguese>Destruir construção desprotegida: %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_see_owner">
+				<Original>Object owner: %1</Original>
+				<English>Object owner: %1</English>
+				<Portuguese>Dono do objeto: %1</Portuguese>
+			</Key>
+			<Key ID="str_menu_on_right">
+				<Original>MENU ON RIGHT</Original>
+				<English>MENU ON RIGHT</English>
+				<Portuguese>MENU A DIREITA</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main0">
+				<Original>Back Packs</Original>
+				<English>Back Packs</English>
+				<Portuguese>Mochilas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main1">
+				<Original>Uniforms/Helmets</Original>
+				<English>Uniforms/Helmets</English>
+				<Portuguese>Uniformes/Capacetes</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main2">
+				<Original>Vests</Original>
+				<English>Vests</English>
+				<Portuguese>Vests</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main3">
+				<Original>Assault Rifles</Original>
+				<English>Assault Rifles</English>
+				<Portuguese>Rifles de Assalto</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main4">
+				<Original>Snipers</Original>
+				<English>Snipers</English>
+				<Portuguese>Snipers</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main5">
+				<Original>Pistols</Original>
+				<English>Pistols</English>
+				<Portuguese>Pistolas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main6">
+				<Original>Machine Guns</Original>
+				<English>Machine Guns</English>
+				<Portuguese>Metralhadoras</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main7">
+				<Original>Ammo Pistols/SMG</Original>
+				<English>Ammo Pistols/SMG</English>
+				<Portuguese>Municao Pistolas/SMG</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main8">
+				<Original>Ammo Machine Guns</Original>
+				<English>Ammo Machine Guns</English>
+				<Portuguese>Municao Metralhadoras</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main9">
+				<Original>Ammo Snipers</Original>
+				<English>Ammo Snipers</English>
+				<Portuguese>Municao Snipers</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main10">
+				<Original>Optics</Original>
+				<English>Optics</English>
+				<Portuguese>Optica</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main11">
+				<Original>Equipements</Original>
+				<English>Equipements</English>
+				<Portuguese>Equipamentos</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main12">
+				<Original>Weapon Acessories</Original>
+				<English>Weapon Acessories</English>
+				<Portuguese>Acessorios de Arma</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main13">
+				<Original>Launchers</Original>
+				<English>Launchers</English>
+				<Portuguese>Lancadores</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main14">
+				<Original>Explosives</Original>
+				<English>Explosives</English>
+				<Portuguese>Explosivos</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main15">
+				<Original>Ammo Assault Rifles</Original>
+				<English>Ammo Assault Rifles</English>
+				<Portuguese>Municao Rifles de Assalto</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main16">
+				<Original>Construction</Original>
+				<English>Construction</English>
+				<Portuguese>Construcao</Portuguese>
+			</Key>
+			<Key ID="str_mkt_main17">
+				<Original>Extra Items</Original>
+				<English>Extra Items</English>
+				<Portuguese>Itens Extra</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons0">
+				<Original>Kit Light</Original>
+				<English>Kit Light</English>
+				<Portuguese>Kit Light</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons1">
+				<Original>Camo Kit</Original>
+				<English>Camo Kit</English>
+				<Portuguese>Kit Camuflagem</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons2">
+				<Original>Sand Kit</Original>
+				<English>Sand Kit</English>
+				<Portuguese>Kit Barreira de Areia</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons3">
+				<Original>Modern City Kit</Original>
+				<English>Modern City Kit</English>
+				<Portuguese>Kit Cidade Moderna</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons4">
+				<Original>Stone City Kit</Original>
+				<English>Stone City Kit</English>
+				<Portuguese>Kit Cidade de Pedra</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons5">
+				<Original>Slum Kit</Original>
+				<English>Slum Kit</English>
+				<Portuguese>Kit Favela</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons6">
+				<Original>Concrete Kit</Original>
+				<English>Concrete Kit</English>
+				<Portuguese>Kit Concreto</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons7">
+				<Original>Thug Kit</Original>
+				<English>Thug Kit</English>
+				<Portuguese>Kit Casca Grossa</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons8">
+				<Original>Tower Kit</Original>
+				<English>Tower Kit</English>
+				<Portuguese>Kit Torres</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons9">
+				<Original>Special Kit</Original>
+				<English>Special Kit</English>
+				<Portuguese>Kit Especial</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons10">
+				<Original>Table and Chair Kit</Original>
+				<English>Table and Chair Kit</English>
+				<Portuguese>Mesas e Cadeiras</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons11">
+				<Original>Beach Items</Original>
+				<English>Beach Items</English>
+				<Portuguese>Itens de Praia</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons12">
+				<Original>Anti-Zombie Kit</Original>
+				<English>Anti-Zombie Kit</English>
+				<Portuguese>Kit Anti-Zumbi</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons13">
+				<Original>Stuffos I</Original>
+				<English>Stuffos I</English>
+				<Portuguese>Stuffos I</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons14">
+				<Original>Stuffos II</Original>
+				<English>Stuffos II</English>
+				<Portuguese>Stuffos II</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons15">
+				<Original>Ilumination</Original>
+				<English>Ilumination</English>
+				<Portuguese>Iluminacao</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons16">
+				<Original>Recreation Items</Original>
+				<English>Recreation Items</English>
+				<Portuguese>Itens de Recreacao</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons17">
+				<Original>Militar Signs</Original>
+				<English>Militar Signs</English>
+				<Portuguese>Placas Militares</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons18">
+				<Original>Store And Fuel</Original>
+				<English>Store And Fuel</English>
+				<Portuguese>Armazenamento e Combustivel</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons19">
+				<Original>Wreck</Original>
+				<English>Wreck</English>
+				<Portuguese>Destroços</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons20">
+				<Original>Small Houses</Original>
+				<English>Small Houses</English>
+				<Portuguese>Casas Pequenas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons21">
+				<Original>Medium House</Original>
+				<English>Medium House</English>
+				<Portuguese>Casas Medias</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons22">
+				<Original>Radar Spots</Original>
+				<English>Radar Spots</English>
+				<Portuguese>Radar Spots</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons23">
+				<Original>Radar U-Spots</Original>
+				<English>Radar U-Spots</English>
+				<Portuguese>Radar U-Spots</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons24">
+				<Original>Movement Blocks</Original>
+				<English>Movement Blocks</English>
+				<Portuguese>Blocos de Movimento</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons25">
+				<Original>Generic Respawn</Original>
+				<English>Generic Respawn</English>
+				<Portuguese>Respawn Generico</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons26">
+				<Original>Stealth Respawn</Original>
+				<English>Stealth Respawn</English>
+				<Portuguese>Respawn Furtivo</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons27">
+				<Original>Helipads</Original>
+				<English>Helipads</English>
+				<Portuguese>Helipads</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons28">
+				<Original>Defense Turrets</Original>
+				<English>Defense Turrets</English>
+				<Portuguese>Turretas de Defesa</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons29">
+				<Original>Terrain Assign 25 m</Original>
+				<English>Terrain Assign 25 m</English>
+				<Portuguese>Posse de Terreno 25 m</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons30">
+				<Original>Terrain Assign 50 m</Original>
+				<English>Terrain Assign 50 m</English>
+				<Portuguese>Posse de Terreno 50 m</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons31">
+				<Original>Terrain Assign 100 m</Original>
+				<English>Terrain Assign 100 m</English>
+				<Portuguese>Posse de Terreno 100 m</Portuguese>
+			</Key>
+			<Key ID="str_mkt_cons32">
+				<Original>Terrain Assign 200 m</Original>
+				<English>Terrain Assign 200 m</English>
+				<Portuguese>Posse de Terreno 200 m</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub0_0">
+				<Original>Cool</Original>
+				<English>Cool</English>
+				<Portuguese>Legais</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub0_1">
+				<Original>Professional</Original>
+				<English>Professional</English>
+				<Portuguese>Profissional</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub0_2">
+				<Original>Super</Original>
+				<English>Super</English>
+				<Portuguese>Super</Portuguese>
+			</Key>
+			<Key ID="str_apex_dlc">
+				<Original>Apex DLC</Original>
+				<English>Apex DLC</English>
+				<Portuguese>Apex DLC</Portuguese>
+			</Key>
+			<Key ID="str_a3_vanilla">
+				<Original>Arma 3 Default</Original>
+				<English>Arma 3 Default</English>
+				<Portuguese>Arma 3 Padrão</Portuguese>
+			</Key>
+			<Key ID="str_marksman">
+				<Original>Marksman DLC</Original>
+				<English>Marksman DLC</English>
+				<Portuguese>Marksman DLC</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub1_0">
+				<Original>Uniforms</Original>
+				<English>Uniforms</English>
+				<Portuguese>Uniformes</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub1_1">
+				<Original>Special</Original>
+				<English>Special</English>
+				<Portuguese>Especiais</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub1_2">
+				<Original>Helmets</Original>
+				<English>Helmets</English>
+				<Portuguese>Capacetes</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub2_0">
+				<Original>Many Pockets</Original>
+				<English>Many Pockets</English>
+				<Portuguese>Muitos Bolsos</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub2_1">
+				<Original>Light Armor</Original>
+				<English>Light Armor</English>
+				<Portuguese>Armadura Light</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub2_2">
+				<Original>Ultra Heavy</Original>
+				<English>Ultra Heavy</English>
+				<Portuguese>Ultra Pesado</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub6_0">
+				<Original>Light Machinegun</Original>
+				<English>Light Machinegun</English>
+				<Portuguese>Metralhadora Light</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub6_1">
+				<Original>Medium Machinegun</Original>
+				<English>Medium Machinegun</English>
+				<Portuguese>Metralhadora Media</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub7_0">
+				<Original>9 mm e .45</Original>
+				<English>9 mm e .45</English>
+				<Portuguese>9 mm e .45</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub8_0">
+				<Original>Light Machinegun Ammo</Original>
+				<English>Light Machinegun Ammo</English>
+				<Portuguese>Munição Metralhadora Light</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub8_1">
+				<Original>Medium Machinegun Ammo</Original>
+				<English>Medium Machinegun Ammo</English>
+				<Portuguese>Munição Metralhadora Media</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub10_0">
+				<Original>Basic</Original>
+				<English>Basic</English>
+				<Portuguese>Basica</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub10_1">
+				<Original>Mid-range</Original>
+				<English>Mid-range</English>
+				<Portuguese>Meia-distância</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub10_2">
+				<Original>High-range</Original>
+				<English>High-range</English>
+				<Portuguese>Longa-distância</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub11_0">
+				<Original>Default</Original>
+				<English>Default</English>
+				<Portuguese>Padrão</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub11_1">
+				<Original>Special</Original>
+				<English>Special</English>
+				<Portuguese>Especial</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub12_0">
+				<Original>Supressors</Original>
+				<English>Supressors</English>
+				<Portuguese>Supressores</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub12_1">
+				<Original>Others</Original>
+				<English>Others</English>
+				<Portuguese>Outros</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub13_0">
+				<Original>Launchers</Original>
+				<English>Launchers</English>
+				<Portuguese>Lançadores</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub13_1">
+				<Original>Rockets</Original>
+				<English>Rockets</English>
+				<Portuguese>Foguetes</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub14_0">
+				<Original>Mines</Original>
+				<English>Mines</English>
+				<Portuguese>Minas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub14_1">
+				<Original>Grenades</Original>
+				<English>Grenades</English>
+				<Portuguese>Granadas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub14_2">
+				<Original>Slugs</Original>
+				<English>Slugs</English>
+				<Portuguese>Slugs</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_0">
+				<Original>Simple</Original>
+				<English>Simple</English>
+				<Portuguese>Simples</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_1">
+				<Original>Strong</Original>
+				<English>Strong</English>
+				<Portuguese>Forte</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_2">
+				<Original>Special</Original>
+				<English>Special</English>
+				<Portuguese>Especial</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_3">
+				<Original>Objects</Original>
+				<English>Objects</English>
+				<Portuguese>Objetos</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_4">
+				<Original>Base Usefull</Original>
+				<English>Base Usefull</English>
+				<Portuguese>Util a Base</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_5">
+				<Original>Extra Structures I</Original>
+				<English>Extra Structures I</English>
+				<Portuguese>Estruturas Extra I</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_6">
+				<Original>Houses</Original>
+				<English>Houses</English>
+				<Portuguese>Casas</Portuguese>
+			</Key>
+			<Key ID="str_mkt_sub16_7">
+				<Original>Terrains</Original>
+				<English>Terrains</English>
+				<Portuguese>Terrenos</Portuguese>
+			</Key>
+			<Key ID="str_spawn_generating">
+				<Original>Generating Spawn Position on map...</Original>
+				<English>Generating Spawn Position on map...</English>
+				<Portuguese>Gerando posicoes para spawn no mapa...</Portuguese>
+			</Key>
+			<Key ID="str_spawn_closed_map_msg">
+				<Original>\n\nOPEN THE MAP (DEFAULT KEY M) AND SELECT A LOCAL TO SPAWN (ORANGE CIRCLES)!\nOR PRESS ESC TO LEAVE THE SERVER.</Original>
+				<English>\n\nOPEN THE MAP (DEFAULT KEY M) AND SELECT A LOCAL TO SPAWN (ORANGE CIRCLES)!\nOR PRESS ESC TO LEAVE THE SERVER.</English>
+				<Portuguese>\n\nABRA O MAPA (TECLA PADRAO M) E ESCOLHA UM LOCAL PARA NASCER (CIRCULOS ALARANJADOS)!\nOU PRESSIONE ESC PARA SAIR DO SERVIDOR.</Portuguese>
+			</Key>
+			<Key ID="str_spawn_logoff_protection">
+				<Original>YOU ARE IN THE LOGOFF PROTECTION, PLEASE WAIT...</Original>
+				<English>YOU ARE IN THE LOGOFF PROTECTION, PLEASE WAIT...</English>
+				<Portuguese>VOCE ESTA NA PROTEÇÃO DE LOGOFF, POR FAVOR ESPERE...</Portuguese>
+			</Key>
+			<Key ID="str_spawn_returning_life">
+				<Original>RETURNING TO LIFE...</Original>
+				<English>RETURNING TO LIFE...</English>
+				<Portuguese>RETORNANDO A VIDA...</Portuguese>
+			</Key>
+			<Key ID="str_please_wait">
+				<Original>PLEASE WAIT...</Original>
+				<English>PLEASE WAIT...</English>
+				<Portuguese>POR FAVOR ESPERE...</Portuguese>
+			</Key>
+			<Key ID="str_spawn_not_orange">
+				<Original>You cant spawn on this position!\nSelect an orange circle!</Original>
+				<English>You cant spawn on this position!\nSelect an orange circle!</English>
+				<Portuguese>Voce nao pode nascer nesta posicao!\nSelecione uma area alaranjada!</Portuguese>
+			</Key>
+			<Key ID="str_spawn_wait_count">
+				<Original>This place is locked.\nWait the count down reach zero.</Original>
+				<English>This place is locked.\nWait the count down reach zero.</English>
+				<Portuguese>Este local esta trancado.\nEspere a contagem terminar!</Portuguese>
+			</Key>
+			<Key ID="str_vehprot_public">
+				<Original>Public Vehicle!</Original>
+				<English>Public Vehicle!</English>
+				<Portuguese>Veiculo Publico!</Portuguese>
+			</Key>
+			<Key ID="str_vehprot_can_use">
+				<Original>Private Vehicle - You have permission to use.</Original>
+				<English>Private Vehicle - You have permission to use.</English>
+				<Portuguese>Veiculo Privado - Voce tem permissão para usar.</Portuguese>
+			</Key>
+			<Key ID="str_vehprot_cant_use">
+				<Original>Private Vehicle - You dont have permission to use.</Original>
+				<English>Private Vehicle - You dont have permission to use.</English>
+				<Portuguese>Veiculo Privado - Voce não tem permissão para usar.</Portuguese>
+			</Key>
+			<Key ID="str_vehprot_lock_on">
+				<Original>Lock on!</Original>
+				<English>Lock on!</English>
+				<Portuguese>Trava ligada!</Portuguese>
+			</Key>
+			<Key ID="str_tow_land_tow_bob">
+				<Original>Bob Tow %1 meters</Original>
+				<English>Bob Tow %1 meters</English>
+				<Portuguese>Reboque %1 metros</Portuguese>
+			</Key>
+			<Key ID="str_surr_surrender">
+				<Original>Surrender</Original>
+				<English>Surrender</English>
+				<Portuguese>Render</Portuguese>
+			</Key>
+			<Key ID="str_surr_ask_drop">
+				<Original>Order to drop Items...</Original>
+				<English>Order to drop Items...</English>
+				<Portuguese>Mandar botar items no chão...</Portuguese>
+			</Key>
+			<Key ID="str_surr_drop_items">
+				<Original>Drop Items!</Original>
+				<English>Drop Items!</English>
+				<Portuguese>Colocar items no chão!</Portuguese>
+			</Key>
+			<Key ID="str_holdwep_scut">
+				<Original>Short Cut: Shift + h.</Original>
+				<English>Short Cut: Shift + h.</English>
+				<Portuguese>Atalho: Shift + h.</Portuguese>
+			</Key>
+			<Key ID="str_player_is_visible">
+				<Original>You is VISIBLE now!</Original>
+				<English>You is VISIBLE now!</English>
+				<Portuguese>Você esta VISÍVEL agora!</Portuguese>
+			</Key>
+			<Key ID="str_player_is_invisible">
+				<Original>You is INVISIBLE now!</Original>
+				<English>You is INVISIBLE now!</English>
+				<Portuguese>Você esta INVISÍVEL agora!</Portuguese>
+			</Key>
+			<Key ID="str_burn_herege">
+				<Original>Burn the Herege</Original>
+				<English>Burn the Herege</English>
+				<Portuguese>Queime os Hereges</Portuguese>
+			</Key>
+			<Key ID="str_burn_herege_fail1">
+				<Original>There is no Zombies near...</Original>
+				<English>There is no Zombies near...</English>
+				<Portuguese>Não tem zumbis por perto...</Portuguese>
+			</Key>
+			<Key ID="str_burn_herege_ok">
+				<Original>You donated 1$</Original>
+				<English>You donated 1$</English>
+				<Portuguese>Você doou 1$</Portuguese>
+			</Key>
+			<Key ID="str_deploypad_cant">
+				<Original>The deploy PAD must be free.\nVehicles removed: %1.\nTo remove the other %2 vehicles wait more %3 seconds.</Original>
+				<English>The deploy PAD must be free.\nVehicles removed: %1.\nTo remove the other %2 vehicles wait more %3 seconds.</English>
+				<Portuguese>O local de entrega precisa estar livre.\nVeículos removidos: %1.\nPara remover os outros %2 veículos espere %3 segundos.</Portuguese>
+			</Key>
+			<Key ID="str_adda_atm_acs">
+				<Original>Access ATM Machine</Original>
+				<English>Access ATM Machine</English>
+				<Portuguese>Acesse Maquina ATM</Portuguese>
+			</Key>
+			<Key ID="str_atm_deposit">
+				<Original>Money Deposit</Original>
+				<English>Money Deposit</English>
+				<Portuguese>Depositar Dinheiro</Portuguese>
+			</Key>
+			<Key ID="str_atm_withdraw">
+				<Original>Money Withdraw</Original>
+				<English>Money Withdraw</English>
+				<Portuguese>Sacar Dinheiro</Portuguese>
+			</Key>
+			<Key ID="str_atm_transfer">
+				<Original>Money Transfer</Original>
+				<English>Money Transfer</English>
+				<Portuguese>Transferência</Portuguese>
+			</Key>
+			<Key ID="str_atm_add">
+				<Original>Add $ %1</Original>
+				<English>Add $ %1</English>
+				<Portuguese>Adicione $ %1</Portuguese>
+			</Key>
+			<Key ID="str_atm_all">
+				<Original>Add All</Original>
+				<English>Add All</English>
+				<Portuguese>Adicionar Tudo</Portuguese>
+			</Key>
+			<Key ID="str_atm_remove">
+				<Original>Remove All</Original>
+				<English>Remove All</English>
+				<Portuguese>Remover Tudo</Portuguese>
+			</Key>
+			<Key ID="str_atm_conclude">
+				<Original>Conclude</Original>
+				<English>Conclude</English>
+				<Portuguese>Concluir</Portuguese>
+			</Key>
+			<Key ID="str_atm_hand">
+				<Original>HAND:</Original>
+				<English>HAND:</English>
+				<Portuguese>NA MÃO:</Portuguese>
+			</Key>
+			<Key ID="str_atm_bank">
+				<Original>BANK:</Original>
+				<English>BANK:</English>
+				<Portuguese>NO BANCO:</Portuguese>
+			</Key>
+			<Key ID="str_atm_confirm_deposit">
+				<Original>CONFIRM DEPOSIT</Original>
+				<English>CONFIRM DEPOSIT</English>
+				<Portuguese>CONFIRME DEPÓSITO</Portuguese>
+			</Key>
+			<Key ID="str_atm_confirm_withdraw">
+				<Original>CONFIRM WITHDRAW</Original>
+				<English>CONFIRM WITHDRAW</English>
+				<Portuguese>CONFIRME SAQUE</Portuguese>
+			</Key>
+			<Key ID="str_legend_path">
+				<Original>BRP_imagens\legend\english\legend_</Original>
+				<English>BRP_imagens\legend\english\legend_</English>
+				<Portuguese>BRP_imagens\legend\portugues\legend_</Portuguese>
+			</Key>
+			<Key ID="str_radio">
+				<Original>[GROUP RADIO]</Original>
+				<English>[GROUP RADIO]</English>
+				<Portuguese>[RADIO DO GRUPO]</Portuguese>
+			</Key>
+			<Key ID="str_flag">
+				<Original>Flag</Original>
+				<English>Flag</English>
+				<Portuguese>Bandeira</Portuguese>
+			</Key>
+			<Key ID="str_custom_friend_see">
+				<Original>See Custom Friends</Original>
+				<English>See Custom Friends</English>
+				<Portuguese>Ver Amigos Customizados</Portuguese>
+			</Key>
+			<Key ID="str_custom_friend_add">
+				<Original>Add Custom Friend</Original>
+				<English>Add Custom Friend</English>
+				<Portuguese>Adicionar Amigo Customizado</Portuguese>
+			</Key>
+			<Key ID="str_custom_friend_remove">
+				<Original>Remove Custom Friend</Original>
+				<English>Remove Custom Friend</English>
+				<Portuguese>Remover Amigo Customizado</Portuguese>
+			</Key>
+			<Key ID="str_object_owner_name">
+				<Original>Object Owner Name: %1</Original>
+				<English>Object Owner Name: %1</English>
+				<Portuguese>Dono do Objeto: %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_vehicle_lock">
+				<Original>Lock Vehicle (key U): %1</Original>
+				<English>Lock Vehicle (key U): %1</English>
+				<Portuguese>Trancar Veículo (tecla U): %1</Portuguese>
+			</Key>
+			<Key ID="str_adda_vehicle_unlock">
+				<Original>Unlock Vehicle (key U): %1</Original>
+				<English>Unlock Vehicle (key U): %1</English>
+				<Portuguese>Destrancar Veículo (tecla U): %1</Portuguese>
+			</Key>
+			<Key ID="str_vehicle_locked">
+				<Original>%1 is now Locked (key U).</Original>
+				<English>%1 is now Locked (key U).</English>
+				<Portuguese>%1 foi Trancado (tecla U).</Portuguese>
+			</Key>
+			<Key ID="str_vehicle_unlocked">
+				<Original>%1 is now *Unlocked* (key U)!</Original>
+				<English>%1 is now *Unlocked* (key U)!</English>
+				<Portuguese>%1 foi *Destrancado* (tecla U)!</Portuguese>
+			</Key>
+			<Key ID="str_vehicle_lock_no_access">
+				<Original>No access to lock/unlock this vehicle.</Original>
+				<English>No access to lock/unlock this vehicle.</English>
+				<Portuguese>Sem acesso para trancar/destrancar este veículo.</Portuguese>
+			</Key>
+			<Key ID="str_open_again_to_update">
+				<Original>open again to update</Original>
+				<English>open again to update</English>
+				<Portuguese>abra de novo para atualizar</Portuguese>
+			</Key>
+			<Key ID="str_cant_access_west_ai">
+				<Original>You can't access special soldiers gear</Original>
+				<English>You can't access special soldiers gear</English>
+				<Portuguese>Você não pode pegar os itens dos soldados do oeste</Portuguese>
+			</Key>
+			<Key ID="str_weapon_holder_ok_name">
+				<Original>player foot</Original>
+				<English>player foot</English>
+				<Portuguese>pés do player</Portuguese>
+			</Key>
+			<Key ID="str_szone_cant_enter">
+				<Original>YOU CAN'T ENTER IN THE SAFEZONE BECAUSE YOU IS IN COMBAT MODE!\nWAIT %1 SECONDS TO ENTER!</Original>
+				<English>YOU CAN'T ENTER IN THE SAFEZONE BECAUSE YOU IS IN COMBAT MODE!\nWAIT %1 SECONDS TO ENTER!</English>
+				<Portuguese>VOCÊ NÃO PODE ENTRAR NA SAFEZONE POIS ESTA EM MODO DE COMBATE!\nAGUARDE %1 SEGUNDOS PARA ENTRAR!</Portuguese>
+			</Key>
+			<Key ID="str_szone_cant_enter_agreged">
+				<Original>YOU CAN'T ENTER IN THE SAFEZONE BECAUSE\nTHERE IS SOMEONE IN COMBAT IN YOUR VEHICLE!</Original>
+				<English>YOU CAN'T ENTER IN THE SAFEZONE BECAUSE\nTHERE IS SOMEONE IN COMBAT IN YOUR VEHICLE!</English>
+				<Portuguese>VOCÊ NÃO PODE ENTRAR NA SAFEZONE POIS ALGUÉM NO SEU VEÍCULO ESTA EM MODO DE COMBATE!</Portuguese>
+			</Key>
+			<Key ID="str_szone_safe_leave_30">
+				<Original>Super jump Exit: 30 degrees</Original>
+				<English>Super jump Exit: 30 degrees</English>
+				<Portuguese>Saida com Super Pulo: 30 graus</Portuguese>
+			</Key>
+			<Key ID="str_szone_safe_leave_45">
+				<Original>Super jump Exit: 45 degrees</Original>
+				<English>Super jump Exit: 45 degrees</English>
+				<Portuguese>Saida com Super Pulo: 45 graus</Portuguese>
+			</Key>
+			<Key ID="str_sbar_combat_on">
+				<Original>Combat</Original>
+				<English>Combat</English>
+				<Portuguese>Combate</Portuguese>
+			</Key>
+			<Key ID="str_sbar_combat_off">
+				<Original>Fine</Original>
+				<English>Fine</English>
+				<Portuguese>De Boa</Portuguese>
+			</Key>
+			<Key ID="str_sbar_f2">
+				<Original>Menu</Original>
+				<English>Menu</English>
+				<Portuguese>Menu</Portuguese>
+			</Key>
+			<Key ID="str_sbar_f3">
+				<Original>Admin</Original>
+				<English>Admin</English>
+				<Portuguese>Admin</Portuguese>
+			</Key>
+			<Key ID="str_body">
+				<Original>Body</Original>
+				<English>Body</English>
+				<Portuguese>Corpo</Portuguese>
+			</Key>
+			<Key ID="str_language_is_portuguese">
+				<Original>false</Original>
+				<English>false</English>
+				<Portuguese>true</Portuguese>
+			</Key>
+			<Key ID="str_aid_title">
+				<Original>Traveling Aid</Original>
+				<English>Traveling Aid</English>
+				<Portuguese>Auxílio ao Viajor</Portuguese>
+			</Key>
+			<Key ID="str_aid_in">
+				<Original>You entered in a Traveling Aid area\nyour vehicles are safe here</Original>
+				<English>You entered in a Traveling Aid area\nyour vehicles are safe here</English>
+				<Portuguese>Você entrou em uma área de Auxílio ao Viajor\nseus veículos estão seguros aqui</Portuguese>
+			</Key>
+			<Key ID="str_aid_out">
+				<Original>You left the Traveling Aid area</Original>
+				<English>You left the Traveling Aid area</English>
+				<Portuguese>Você saiu da área de Auxílio ao Viajor</Portuguese>
+			</Key>
+			<Key ID="str_aid_fix_veh">
+				<Original>Fix your vehicle for free!</Original>
+				<English>Fix your vehicle for free!</English>
+				<Portuguese>Concerte seu veículo de graça!</Portuguese>
+			</Key>
+			<Key ID="str_aid_refuel_veh">
+				<Original>Refuel your vehicle for free!</Original>
+				<English>Refuel your vehicle for free!</English>
+				<Portuguese>Reabasteça seu veículo de graça!</Portuguese>
+			</Key>
+		</Container>
+	</Package>
+</Project>

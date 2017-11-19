@@ -1,0 +1,359 @@
+author = $STR_brpvp_team;
+onLoadMission = $STR_brpvp;
+onLoadIntro = $STR_brpvp;
+onLoadName = $STR_brpvp;
+loadScreen = "\a3\map_stratis\data\ui_stratis_ca.paa";
+joinUnassigned = 0;
+respawnDelay = 5;
+respawn = 3;
+disabledAI = 1;
+enableDebugConsole = 1;
+respawnOnStart = 0;
+onPauseScript = "";
+disableRandomization[] = {"All"};
+respawnTemplates[] = {};
+saving = 0;
+enableItemsDropping = 0;
+skipLobby = 1;
+respawnButton = 1;
+respawnDialog = 0;
+onLoadIntroTime = false;
+onLoadMissionTime = false;
+disableChannels[] = {0,2,6};
+class Header {
+	gameType = Survive;
+	minPlayers = 1;
+	maxPlayers = 120;
+};
+class CfgSounds {
+	sounds[] = {};
+	class constructing {
+		name = "BRPVP_constructing";
+		sound[] = {"BRP_sons\constructing.ogg",1,1};
+		titles[] = {};
+	};
+	class achou_loot {
+		name = "BRPVP_achou_loot";
+		sound[] = {"BRP_sons\achou_loot.ogg",0.25,0.8};
+		titles[] = {};
+	};
+	class tema {
+		name = "BRPVP_tema";
+		sound[] = {"BRP_sons\tema.ogg",1,1};
+		titles[] = {};
+	};
+	class heal {
+		name = "BRPVP_heal";
+		sound[] = {"BRP_sons\heal.ogg",1,1};
+		titles[] = {};
+	};
+	class semtiro {
+		name = "BRPVP_semtiro";
+		sound[] = {"BRP_sons\semtiro.ogg",1,1};
+		titles[] = {};
+	};
+	class comtiro {
+		name = "BRPVP_comtiro";
+		sound[] = {"BRP_sons\comtiro.ogg",1,1};
+		titles[] = {};
+	};
+	class batida {
+		name = "BRPVP_batida";
+		sound[] = {"BRP_sons\batida.ogg",1,1};
+		titles[] = {};
+	};
+	class hint {
+		name = "BRPVP_hint";
+		sound[] = {"BRP_sons\hint.ogg",0.5,1};
+		titles[] = {};
+	};
+	class hint2 {
+		name = "BRPVP_hint2";
+		sound[] = {"BRP_sons\hint2.ogg",0.5,1};
+		titles[] = {};
+	};
+	class abrevault {
+		name = "BRPVP_abrevault";
+		sound[] = {"BRP_sons\abrevault.ogg",1,1};
+		titles[] = {};
+	};
+	class fechavault {
+		name = "BRPVP_fechavault";
+		sound[] = {"BRP_sons\fechavault.ogg",0.8,1};
+		titles[] = {};
+	};
+	class negocio {
+		name = "BRPVP_negocio";
+		sound[] = {"BRP_sons\negocio.ogg",0.4,1};
+		titles[] = {};
+	};
+	class granted {
+		name = "BRPVP_granted";
+		sound[] = {"BRP_sons\granted.ogg",0.5,1};
+		titles[] = {};
+	};
+	class ugranted {
+		name = "BRPVP_ugranted";
+		sound[] = {"BRP_sons\ubber_granted.ogg",0.5,1};
+		titles[] = {};
+	};
+	class erro {
+		name = "BRPVP_erro";
+		sound[] = {"BRP_sons\erro.ogg",0.25,1};
+		titles[] = {};
+	};
+	class radarbip {
+		name = "BRPVP_radarbip";
+		sound[] = {"BRP_sons\radarbip.ogg",0.5,1};
+		titles[] = {};
+	};
+	class ciclo {
+		name = "BRPVP_ciclo";
+		sound[] = {"BRP_sons\ciclo.ogg",0.25,1};
+		titles[] = {};
+	};
+	class sirene {
+		name = "BRPVP_sirene";
+		sound[] = {"BRP_sons\sirene.ogg",1,1};
+		titles[] = {};
+	};
+	class elevador {
+		name = "BRPVP_elevador";
+		sound[] = {"BRP_sons\elevador.ogg",1,1};
+		titles[] = {};
+	};
+	class destroy {
+		name = "BRPVP_destroy";
+		sound[] = {"BRP_sons\destroy.ogg",1,1};
+		titles[] = {};
+	};
+	class bulldozer {
+		name = "BRPVP_bulldozer";
+		sound[] = {"BRP_sons\bulldozer.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_spawn {
+		name = "BRPVP_zombie_spawn";
+		sound[] = {"BRP_sons\zombie_spawn.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_plus {
+		name = "BRPVP_zombie_plus";
+		sound[] = {"BRP_sons\zombie_plus.ogg",0.5,1.15};
+		titles[] = {};
+	};
+	class zombie_minus {
+		name = "BRPVP_zombie_minus";
+		sound[] = {"BRP_sons\zombie_minus.ogg",0.5,0.85};
+		titles[] = {};
+	};
+	class eletric_spark {
+		name = "BRPVP_eletric_spark";
+		sound[] = {"BRP_sons\eletric_spark.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_1 {
+		name = "BRPVP_zombie_snd_1";
+		sound[] = {"BRP_sons\disabled4.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_2 {
+		name = "BRPVP_zombie_snd_2";
+		sound[] = {"BRP_sons\disabled5.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_3 {
+		name = "BRPVP_zombie_snd_3";
+		sound[] = {"BRP_sons\disabled6.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_4 {
+		name = "BRPVP_zombie_snd_4";
+		sound[] = {"BRP_sons\disabled7.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_5 {
+		name = "BRPVP_zombie_snd_5";
+		sound[] = {"BRP_sons\zumbi_1.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_6 {
+		name = "BRPVP_zombie_snd_6";
+		sound[] = {"BRP_sons\zumbi_2.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_7 {
+		name = "BRPVP_zombie_snd_7";
+		sound[] = {"BRP_sons\zumbi_3.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_8 {
+		name = "BRPVP_zombie_snd_8";
+		sound[] = {"BRP_sons\zumbi_4.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_9 {
+		name = "BRPVP_zombie_snd_9";
+		sound[] = {"BRP_sons\zumbi_5.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_10 {
+		name = "BRPVP_zombie_snd_10";
+		sound[] = {"BRP_sons\zumbi_6.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_11 {
+		name = "BRPVP_zombie_snd_11";
+		sound[] = {"BRP_sons\zumbi_7.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_12 {
+		name = "BRPVP_zombie_snd_12";
+		sound[] = {"BRP_sons\zumbi_8.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_13 {
+		name = "BRPVP_zombie_snd_13";
+		sound[] = {"BRP_sons\zumbi_9.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_14 {
+		name = "BRPVP_zombie_snd_14";
+		sound[] = {"BRP_sons\zumbi_10.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_15 {
+		name = "BRPVP_zombie_snd_15";
+		sound[] = {"BRP_sons\zumbi_11.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_16 {
+		name = "BRPVP_zombie_snd_16";
+		sound[] = {"BRP_sons\zumbi_12.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_17 {
+		name = "BRPVP_zombie_snd_17";
+		sound[] = {"BRP_sons\zumbi_13.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_18 {
+		name = "BRPVP_zombie_snd_18";
+		sound[] = {"BRP_sons\zumbi_14.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_19 {
+		name = "BRPVP_zombie_snd_19";
+		sound[] = {"BRP_sons\zumbi_15.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_20 {
+		name = "BRPVP_zombie_snd_20";
+		sound[] = {"BRP_sons\zumbi_16.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_21 {
+		name = "BRPVP_zombie_snd_21";
+		sound[] = {"BRP_sons\zumbi_17.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_22 {
+		name = "BRPVP_zombie_snd_22";
+		sound[] = {"BRP_sons\zumbi_18.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_23 {
+		name = "BRPVP_zombie_snd_23";
+		sound[] = {"BRP_sons\zumbi_19.ogg",1,1};
+		titles[] = {};
+	};
+	class zombie_snd_24 {
+		name = "BRPVP_zombie_snd_24";
+		sound[] = {"BRP_sons\zumbi_20.ogg",1,1};
+		titles[] = {};
+	};
+	class jumper {
+		name = "BRPVP_jumper";
+		sound[] = {"BRP_sons\jumper.ogg",1,1};
+		titles[] = {};
+	};
+	class turret_alert {
+		name = "BRPVP_turret_alert";
+		sound[] = {"BRP_sons\turret_alert.ogg",0.25,1};
+		titles[] = {};
+	};
+	class fedidex {
+		name = "BRPVP_fedidex";
+		sound[] = {"BRP_sons\fedidex.ogg",1,1};
+		titles[] = {};
+	};
+	class fedidex_start {
+		name = "BRPVP_fedidex_start";
+		sound[] = {"BRP_sons\fedidex_start.ogg",1,1};
+		titles[] = {};
+	};
+	class delivered {
+		name = "BRPVP_delivered";
+		sound[] = {"BRP_sons\delivered.ogg",1,1};
+		titles[] = {};
+	};
+	class crazy {
+		name = "BRPVP_crazy";
+		sound[] = {"BRP_sons\crazy.ogg",1,1};
+		titles[] = {};
+	};
+	class backpack {
+		name = "BRPVP_backpack";
+		sound[] = {"BRP_sons\backpack.ogg",1,1};
+		titles[] = {};
+	};
+	class radio_beep {
+		name = "BRPVP_radio_beep";
+		sound[] = {"BRP_sons\radio_beep.ogg",0.5,1};
+		titles[] = {};
+	};
+	class lock_car {
+		name = "BRPVP_lock_car";
+		sound[] = {"BRP_sons\lock_car.ogg",1,1};
+		titles[] = {};
+	};
+	class unlock_car {
+		name = "BRPVP_unlock_car";
+		sound[] = {"BRP_sons\unlock_car.ogg",1,1};
+		titles[] = {};
+	};
+	class shazam {
+		name = "BRPVP_shazam";
+		sound[] = {"BRP_sons\shazam.ogg",1,1};
+		titles[] = {};
+	};
+	class woohoo {
+		name = "BRPVP_woohoo";
+		sound[] = {"BRP_sons\woohoo.ogg",1,1};
+		titles[] = {};
+	};
+};
+class AdmBuild {
+	idd = 13838;
+	movingEnable = false;
+	enableSimulation = true;
+	class Objects {
+ 		class AdmBuildObject {
+			idc = 83831; 
+			type = 82;
+			model = "\A3\Structures_F\Items\Food\Can_V3_F.p3d";
+			scale = 0.001;
+			direction[] = {0,0,1};
+			up[] = {0,1,0}; 
+ 			x = 0.5;
+			y = 0.5;
+			z = 0.2;
+			xBack = 0.5;
+			yBack = 0.5;
+			zBack = 1.2;
+			inBack = 1;
+			enableZoom = false;
+			zoomDuration = 0.001;
+		};
+	};
+};

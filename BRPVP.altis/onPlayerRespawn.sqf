@@ -1,0 +1,10 @@
+_player = _this select 0;
+{_player removeMagazine _x;} forEach  magazines _player;
+{_player removeWeapon _x;} forEach weapons _player;
+{_player removeItem _x;} forEach items _player;
+removeAllAssignedItems _player;
+removeBackpackGlobal _player;
+removeUniform _player;
+removeVest _player;
+removeHeadGear _player;
+removeGoggles _player;
